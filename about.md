@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @DougVikt
 - 👀 I’m interested in program
-- 🌱 I’m currently learning python
+- 🌱 I’m currently learning python , html , php
 - 📫 How to reach me 
 - email: dougvikt.9@gmail.com
 
