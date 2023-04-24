@@ -12,6 +12,6 @@
 <p><b>48%</b></p><hr>
 <img src="bootstrap.png" alt="logo bootstrap" width="50" />
 <p><b>77%</b></p><hr>
-<img src="javascript.png" alt="logo javascript" width="50" />
+<img src="java-script.png" alt="logo javascript" width="50" />
 <p><b>77%</b></p><hr>
 </div>
