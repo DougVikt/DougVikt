@@ -4,7 +4,7 @@
  ***A estagnação leva ao fracasso***
   
   
-# CONHECIMENTOS EM LINGUGENS / FRAMEWORKS 
+# CONHECIMENTOS EM LINGUAGENS / FRAMEWORKS 
 <div>
 <img src="html-5.png" alt="logo html 5" width="50" height="50"/>
 <p><b>75%</b></p><hr>
