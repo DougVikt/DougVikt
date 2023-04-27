@@ -1,7 +1,7 @@
 # BEM VINDO AO MEU GITHUB !
 
   Estou sempre com fome de projetos , caso tenha algum pode me chamar , não importa a linguagem 
-  Sempre seguindo o lema :
+  + Meu lema :
  ***A estagnação leva ao fracasso***
   
 <img align="right" width="450px" style="margin-top:-20px" src="octocat-1682385018800.png">  
@@ -13,6 +13,7 @@
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="50" height="50"/></code>
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="50" height="50"/></code>
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="50" height="50"/></code>
+<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="50" height="50" /></code>
 </div>
 
 # FRAMEWORKS
