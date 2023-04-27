@@ -1,10 +1,11 @@
 # BEM VINDO AO MEU GITHUB !
 
-  Estou sempre com fome de projetos , caso tenha algum pode me chamar , não importa a linguagem 
+ Ola ! Para você que esta vendo meu perfil . gosto muito de tecnologia , principalmente programação , moro no RN Natal .<br>
+ Estou em desenvolvimento web , mas não quero parar , ir para varias areas de desenvolvimento .
   + Meu lema :
  ***A estagnação leva ao fracasso***
   
-<img align="right" width="450px" style="margin-top:-20px" src="octocat-1682385018800.png">  
+<img align="right" width="550px" style="margin-top:-30px" src="octocat-1682385018800.png">  
 
 # LINGUAGENS
 
