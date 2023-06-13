@@ -1,7 +1,7 @@
 # BEM VINDO AO MEU GITHUB !
 
  Ola ! Para você que esta vendo meu perfil . gosto muito de tecnologia , principalmente programação , moro no RN Natal .<br>
- Estou em desenvolvimento web , mas não quero parar , ir para varias areas de desenvolvimento .
+ Começei em desenvolvimento web , entretanto o objetivo e desenvolver software , mas não quero parar , ir para varias areas de desenvolvimento sera a meta de vida.
   + Meu lema :
  ***A estagnação leva ao fracasso***
   
