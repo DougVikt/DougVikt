@@ -7,7 +7,7 @@
   
 <img align="right" width="550px" style="margin-top:-30px" src="octocat-1682385018800.png">  
 
-[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white)]([https://www.linkedin.com/in/arthurspk/](https://www.linkedin.com/in/douglas-viktor-martins/))
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglas-viktor-martins)](https://www.linkedin.com/in/douglas-viktor-martins/)
          
 
 # LINGUAGENS
