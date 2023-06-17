@@ -8,7 +8,7 @@
 <img align="right" width="550px" style="margin-top:-30px" src="octocat-1682385018800.png">  
 
 [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglas-viktor-martins)](https://www.linkedin.com/in/douglas-viktor-martins)
-[![Discord Badge](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/dougvikt#9526)
+[![Discord Badge](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/DOUGVIKT#9526)
          
 
 # LINGUAGENS
