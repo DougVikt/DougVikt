@@ -5,13 +5,13 @@
   + Meu lema :
  ***A estagnação leva ao fracasso***
   
-<img align="right" width="550px" style="margin-top:-30px" src="octocat-1682385018800.png">  
+
 
 [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglas-viktor-martins)](https://www.linkedin.com/in/douglas-viktor-martins)
 
 # LINGUAGENS
 
-<div display="inline-block">
+<div display="inline-block" width="200px">
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="50" height="50" /></code>
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="50" height="50"/></code>
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="50" height="50"/></code>
@@ -27,6 +27,8 @@
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="50" height="50" /></code>
           
 </div>
+
+<img align="right" width="550px" src="octocat-1682385018800.png">  
 
 <br>
 
