@@ -25,7 +25,8 @@
 
 <div display="inline-block">
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="50" height="50" /></code>
-          
+<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" width="50" height="50" />   
+</code>
 </div>
 
 <img align="center" width="550px" style="margin-top:-30px" src="octocat-1682385018800.png">  
