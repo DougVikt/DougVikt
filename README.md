@@ -1,7 +1,7 @@
 # BEM VINDO AO MEU GITHUB !
 
  Ola ! Para você que esta vendo meu perfil . gosto muito de tecnologia , principalmente programação , moro no RN Natal .<br>
- Começei em desenvolvimento web , entretanto o objetivo e desenvolver software , mas não quero parar , ir para varias areas de desenvolvimento sera a meta de vida.
+ Começei em desenvolvimento web com php , entretanto o django e o que uso atualmente e de maior preferencia , mas não quero parar , ir para varias areas de desenvolvimento sera a meta de vida.
   + Meu lema :
  ***A estagnação leva ao fracasso***
   
@@ -18,7 +18,6 @@
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="50" height="50"/></code>
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="50" height="50" /></code>
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="50" height="50"/></code>
-<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="50" height="50"/></code>
 </div>
 
 # FRAMEWORKS
