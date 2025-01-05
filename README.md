@@ -7,7 +7,7 @@
   
 
 
-[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglas-viktor-martins)](https://www.linkedin.com/in/douglas-viktor-martins)
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglas-viktor-a3422b343/)](https://www.linkedin.com/in/douglas-viktor-a3422b343/)
 
 # LINGUAGENS
 
