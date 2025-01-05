@@ -1,7 +1,7 @@
 # BEM VINDO AO MEU GITHUB !
 
  Ola ! Para você que esta vendo meu perfil . gosto muito de tecnologia , principalmente programação , moro no RN Natal .<br>
- Começei em desenvolvimento web com php , entretanto o django e o que uso atualmente e de maior preferencia , mas não quero parar , ir para varias areas de desenvolvimento sera a meta de vida.
+ Começei em desenvolvimento web com php , entretanto o django e o que uso atualmente e de maior prefêrencia , mas não quero parar , ir para varias areas de desenvolvimento será a meta de vida.
   + Meu lema :
  ***A estagnação leva ao fracasso***
   
