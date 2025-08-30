@@ -1,0 +1,71 @@
+{
+  "manifest_version": 3,
+  "name": "Notificações Prioritárias",
+  "version": "1.0.0",
+  "description": "Extensão para monitorizar sites de chat e enviar notificações prioritárias com alertas sonoros",
+  
+  "permissions": [
+    "notifications",
+    "storage",
+    "activeTab",
+    "background",
+    "scripting"
+  ],
+  
+  "host_permissions": [
+    "https://web.whatsapp.com/*",
+    "https://web.telegram.org/*",
+    "https://discord.com/*",
+    "https://app.slack.com/*",
+    "https://teams.microsoft.com/*",
+    "https://mail.google.com/*",
+    "https://outlook.live.com/*",
+    "https://*/*"
+  ],
+  
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.whatsapp.com/*",
+        "https://web.telegram.org/*",
+        "https://discord.com/*",
+        "https://app.slack.com/*",
+        "https://teams.microsoft.com/*",
+        "https://mail.google.com/*",
+        "https://outlook.live.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Notificações Prioritárias",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  
+  "options_page": "options.html",
+  
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  
+  "web_accessible_resources": [
+    {
+      "resources": ["sounds/*.mp3", "sounds/*.wav"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
+
