@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 1,
   "name": "Notificações Prioritárias",
   "version": "1.0.0",
   "description": "Extensão para monitorizar sites de chat e enviar notificações prioritárias com alertas sonoros",
