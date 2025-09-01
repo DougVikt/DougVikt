@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s; 
+    /* Transição suave entre modos */
+    background-color: #1a1a2e; 
+    color: #e0e0e0;
+}
+
+/* Navbar e cards escuros */
+body .navbar,
+body .bg-dark-card {
+    background-color: #16213e !important;
+}
+
+body .bg-light-dark {
+    background-color: #0f3460; 
+}
+
+/* body .text-muted {
+    color: #a0a0a0 !important; 
+} */
+
+body .form-control {
+    background-color: #16213e; 
+    color: #e0e0e0;
+    border-color: #0f3460;
+}
+
+body .form-control:focus {
+    border-color: #e94560; /* Destaque ao focar no campo */
+    box-shadow: 0 0 0 0.25rem rgba(233, 69, 96, 0.25);
+}
+
+/* Cores e gradientes personalizados */
+   
+.bg-dark-gradient {
+    background: linear-gradient(135deg, #1a1a2e, #16213e); 
+}
+
+.bg-light-dark {
+    background-color: #f1f1f1; 
+}
+
+.text-primary {
+    color: #e94560 !important; 
+}
+
+.btn-primary {
+    background-color: #e94560; 
+    border-color: #e94560;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #c03a50; 
+    border-color: #c03a50;
+}
+
+.text-secondary {
+    color: #0f3460 !important;
+}
+
+.bg-dark-card {
+    background-color: #16213e; 
+}
+
+/* Navbar */
+nav .nav-item:hover {
+    background-color: #453f99 !important; 
+    color: #fbfbfc !important;
+    border-radius: 5px;
+}
+
+
+/* Seção hero , topo do site */
+.profile-icon {
+    width: 130px;
+    height: 130px;
+    background: linear-gradient(45deg, #2427e2, #9838f3); 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 0 25px rgba(38, 202, 243, 0.541); 
+}
+
+.typed-text {
+    color: #e94560; 
+}
+
+.cursor {
+    display: inline-block;
+    background-color: #e94560;
+    width: 3px;
+    height: 1.2em;
+    margin-left: 5px;
+    animation: blink 0.7s infinite; 
+}
+
+/* Animação de piscar para o cursor digitando */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.social-links a {
+    font-size: 1.8rem; 
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #e94560 !important; 
+}
+
+.scroll-down-arrow {
+    font-size: 2.5rem; 
+    animation: bounce 2s infinite; 
+    /* Animação de pulo */
+}
+
+/* Animação de pulo para a seta de rolagem */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-15px); }
+    60% { transform: translateY(-7px); }
+}
+
+/* Seção sobre */
+.icon-lg {
+    font-size: 3rem; 
+}
+
+/* Seção Projetos */
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+/* Seção Habilidades */
+.progress-bar {
+    transition: width 1s ease-in-out; 
+}
+
+/* Seção Contato */
+.form-label {
+    color: #e0e0e0; 
+}
+
+/* Rodapé */
+footer a {
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+/* Ajustes Responsivos */
+@media (max-width: 768px) {
+    .display-3 {
+        font-size: 2.5rem; 
+        /* Tamanho menor para títulos */
+    }
+    .lead {
+        font-size: 1rem;
+        /* Texto introdutório menor */
+    }
+    .btn-lg {
+        font-size: 1rem;
+        padding: 0.8rem 1.5rem; 
+        /* Botões grandes ajustados */
+    }
+    .icon-lg {
+        font-size: 2.5rem; 
+        /* Ícones grandes menores em telas pequenas */
+    }
+}
