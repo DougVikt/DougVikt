@@ -1,255 +1,134 @@
 <!DOCTYPE html>
-<html lang="pt-pt">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - DougVikt</title>
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
     <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <!-- Header/Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand fw-bold fs-4" href="#">DougVikt</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#hero">&lt;DougVikt&gt;</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projetos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Competências</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contacto</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experiência</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="d-flex align-items-center justify-content-center text-center text-white vh-100 bg-dark-gradient">
+    <section id="hero" class="hero-section">
+        <div class="hero-background">
+            <div class="grid-pattern"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
         <div class="container">
-            <div class="mb-4">
-                <div class="profile-icon mx-auto mb-4">
-                    &lt;/&gt;
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+                    <p class="hero-greeting">&gt; Olá, eu sou</p>
+                    <h1 class="hero-name" id="heroName">Doug Vikt</h1>
+                    <div class="hero-title-container">
+                        <h2 class="hero-title" id="typedText"></h2>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="hero-tagline" id="heroTagline">Resolvendo problemas de maneiras ageis</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary btn-lg">Ver Projetos</a>
+                        <a href="#contact" class="btn btn-outline-primary btn-lg">Entrar em Contato</a>
+                    </div>
+                    <div class="scroll-indicator">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="7 13 12 18 17 13"></polyline>
+                            <polyline points="7 6 12 11 17 6"></polyline>
+                        </svg>
+                    </div>
                 </div>
-            </div>
-            <h1 class="display-3 fw-bold mb-4">Olá, sou um <span class="typed-text"></span><span class="cursor">|</span></h1>
-            <p class="lead mb-5">Apaixonado por tecnologia, desenvolvimento de software e soluções inovadoras. Transformo ideias em realidade através do código.</p>
-            <a href="#projects" class="btn btn-primary btn-lg me-3">Ver Projetos</a>
-            <a href="#contact" class="btn btn-outline-light btn-lg">Entrar em Contacto</a>
-            <div class="social-links mt-5">
-                <a href="#" class="text-white mx-3"><i class="bi bi-github"></i></a>
-                <a href="#" class="text-white mx-3"><i class="bi bi-linkedin"></i></a>
-                <a href="#" class="text-white mx-3"><i class="bi bi-envelope-fill"></i></a>
-            </div>
-            <div class="scroll-down-arrow mt-5">
-                <a href="#about" class="text-white"><i class="bi bi-chevron-down"></i></a>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-5 bg-light-dark">
+    <section id="about" class="section-dark">
         <div class="container">
-            <h2 class="text-center display-4 fw-bold mb-5 text-primary">Sobre Mim</h2>
+            <div class="section-header">
+                <h2><span class="section-number">01.</span> Sobre Mim</h2>
+                <div class="section-line"></div>
+            </div>
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <h3 class="h4 mb-3 text-secondary">Programador & Técnico em Informática</h3>
-                    <p class="lead text-muted">Sou um profissional apaixonado por tecnologia com experiência em desenvolvimento de software e suporte técnico. Combino conhecimentos sólidos em programação com competências práticas em infraestrutura e manutenção de sistemas.</p>
-                    <p class="lead text-muted">A minha abordagem foca-se em criar soluções eficientes e escaláveis, sempre mantendo as melhores práticas de desenvolvimento e segurança. Estou constantemente a aprender novas tecnologias para me manter atualizado com as tendências do mercado.</p>
-                    <h4 class="h5 mt-4 mb-3 text-secondary">Principais Competências:</h4>
-                    <div class="d-flex flex-wrap gap-2">
-                        <span class="badge bg-primary">JavaScript</span>
-                        <span class="badge bg-primary">HTML5</span>
-                        <span class="badge bg-primary">CSS3</span>
-                        <span class="badge bg-primary">Bootstrap</span>
-                        <span class="badge bg-primary">Python</span>
-                        <span class="badge bg-primary">Linux</span>
-                        <span class="badge bg-primary">Redes</span>
-                    </div>
+                    <p class="text-secondary fs-5" id="aboutBio">
+                        Desenvolvedor apaixonado por criar experiências web modernas e funcionais. 
+                        Querero experiências novas no desenvolvimento de tecnologias , busco sempre aplicar as melhores 
+                        práticas de desenvolvimento e entregar soluções de alta qualidade.
+                    </p>
+                    <p class="text-secondary fs-5">
+                        Minha maior prioridade é criar soluções para problemas complexos, sempre mantendo a organização e na qualidade do código.
+                    </p>
                 </div>
                 <div class="col-lg-6">
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="card bg-dark-card text-white shadow-sm h-100">
-                                <div class="card-body text-center">
-                                    <i class="bi bi-code-slash icon-lg text-primary mb-3"></i>
-                                    <h5 class="card-title">Desenvolvimento Web</h5>
-                                    <p class="card-text text-muted">Frontend e Backend com tecnologias modernas</p>
-                                </div>
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="highlight-card">
+                                <svg class="highlight-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                                <h5>Frontend</h5>
+                                <p>Bootstrap, HTML , CSS</p>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="card bg-dark-card text-white shadow-sm h-100">
-                                <div class="card-body text-center">
-                                    <i class="bi bi-server icon-lg text-primary mb-3"></i>
-                                    <h5 class="card-title">Infraestrutura</h5>
-                                    <p class="card-text text-muted">Configuração e manutenção de servidores</p>
-                                </div>
+                        <div class="col-6">
+                            <div class="highlight-card">
+                                <svg class="highlight-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                                    <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                                    <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                                </svg>
+                                <h5>Backend</h5>
+                                <p>PHP, Python, SQL</p>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="card bg-dark-card text-white shadow-sm h-100">
-                                <div class="card-body text-center">
-                                    <i class="bi bi-shield-check icon-lg text-primary mb-3"></i>
-                                    <h5 class="card-title">Segurança</h5>
-                                    <p class="card-text text-muted">Implementação de práticas de segurança</p>
-                                </div>
+                        <div class="col-6">
+                            <div class="highlight-card">
+                                <svg class="highlight-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                </svg>
+                                <h5>Database</h5>
+                                <p>MongoDB, MySql</p>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="card bg-dark-card text-white shadow-sm h-100">
-                                <div class="card-body text-center">
-                                    <i class="bi bi-tools icon-lg text-primary mb-3"></i>
-                                    <h5 class="card-title">Suporte Técnico</h5>
-                                    <p class="card-text text-muted">Resolução de problemas e manutenção</p>
-                                </div>
+                        <div class="col-6">
+                            <div class="highlight-card">
+                                <svg class="highlight-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                                <h5>Técnico</h5>
+                                <p>Suporte, Redes, Infraestrutura, Manutenção</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center mt-5">
-                <div class="col-md-3">
-                    <div class="display-4 fw-bold text-primary">3+</div>
-                    <p class="text-muted">Anos de Experiência</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="display-4 fw-bold text-primary">20+</div>
-                    <p class="text-muted">Projetos Concluídos</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="display-4 fw-bold text-primary">10+</div>
-                    <p class="text-muted">Tecnologias</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="display-4 fw-bold text-primary">100%</div>
-                    <p class="text-muted">Dedicação</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="py-5 bg-dark-gradient text-white">
-        <div class="container">
-            <h2 class="text-center display-4 fw-bold mb-5 text-primary">Projetos</h2>
-            <p class="text-center lead mb-5 text-muted">Uma seleção dos meus projetos mais recentes, demonstrando diferentes tecnologias e abordagens.</p>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                <!-- Project Card 1 -->
-                <div class="col">
-                    <div class="card bg-dark-card text-white shadow-sm h-100">
-                        <img src="img/project1.jpg" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Plataforma E-commerce</h5>
-                            <p class="card-text text-muted">Plataforma completa de comércio eletrónico com painel administrativo, gestão de produtos, carrinho de compras e sistema de pagamentos.</p>
-                            <div class="d-flex flex-wrap gap-2 mb-3">
-                                <span class="badge bg-secondary">HTML</span>
-                                <span class="badge bg-secondary">CSS</span>
-                                <span class="badge bg-secondary">JavaScript</span>
-                                <span class="badge bg-secondary">Bootstrap</span>
-                            </div>
-                            <a href="#" class="btn btn-primary btn-sm me-2">Ver Demo</a>
-                            <a href="#" class="btn btn-outline-light btn-sm">Código</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Card 2 -->
-                <div class="col">
-                    <div class="card bg-dark-card text-white shadow-sm h-100">
-                        <img src="img/project2.jpg" class="card-img-top" alt="Project 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Sistema de Gestão</h5>
-                            <p class="card-text text-muted">Sistema interno para gestão de clientes, projetos e faturação com dashboard interativo e relatórios detalhados.</p>
-                            <div class="d-flex flex-wrap gap-2 mb-3">
-                                <span class="badge bg-secondary">Python</span>
-                                <span class="badge bg-secondary">Flask</span>
-                                <span class="badge bg-secondary">SQL</span>
-                            </div>
-                            <a href="#" class="btn btn-primary btn-sm me-2">Ver Demo</a>
-                            <a href="#" class="btn btn-outline-light btn-sm">Código</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Card 3 -->
-                <div class="col">
-                    <div class="card bg-dark-card text-white shadow-sm h-100">
-                        <img src="img/project3.jpg" class="card-img-top" alt="Project 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Aplicação Mobile</h5>
-                            <p class="card-text text-muted">Aplicação móvel para gestão de tarefas com sincronização em tempo real e notificações push.</p>
-                            <div class="d-flex flex-wrap gap-2 mb-3">
-                                <span class="badge bg-secondary">React Native</span>
-                                <span class="badge bg-secondary">Firebase</span>
-                            </div>
-                            <a href="#" class="btn btn-primary btn-sm me-2">Ver Demo</a>
-                            <a href="#" class="btn btn-outline-light btn-sm">Código</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Card 4 -->
-                <div class="col">
-                    <div class="card bg-dark-card text-white shadow-sm h-100">
-                        <img src="img/project4.jpg" class="card-img-top" alt="Project 4">
-                        <div class="card-body">
-                            <h5 class="card-title">Website Institucional</h5>
-                            <p class="card-text text-muted">Criação de um website profissional para uma empresa, com design moderno e otimização para SEO.</p>
-                            <div class="d-flex flex-wrap gap-2 mb-3">
-                                <span class="badge bg-secondary">HTML</span>
-                                <span class="badge bg-secondary">CSS</span>
-                                <span class="badge bg-secondary">Bootstrap</span>
-                            </div>
-                            <a href="#" class="btn btn-primary btn-sm me-2">Ver Demo</a>
-                            <a href="#" class="btn btn-outline-light btn-sm">Código</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Card 5 -->
-                <div class="col">
-                    <div class="card bg-dark-card text-white shadow-sm h-100">
-                        <img src="img/project5.jpg" class="card-img-top" alt="Project 5">
-                        <div class="card-body">
-                            <h5 class="card-title">Automação de Tarefas</h5>
-                            <p class="card-text text-muted">Script para automatizar tarefas repetitivas em ambiente de escritório, aumentando a produtividade.</p>
-                            <div class="d-flex flex-wrap gap-2 mb-3">
-                                <span class="badge bg-secondary">Python</span>
-                                <span class="badge bg-secondary">Pandas</span>
-                                <span class="badge bg-secondary">OpenPyXL</span>
-                            </div>
-                            <a href="#" class="btn btn-primary btn-sm me-2">Ver Demo</a>
-                            <a href="#" class="btn btn-outline-light btn-sm">Código</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Card 6 -->
-                <div class="col">
-                    <div class="card bg-dark-card text-white shadow-sm h-100">
-                        <img src="img/project6.jpg" class="card-img-top" alt="Project 6">
-                        <div class="card-body">
-                            <h5 class="card-title">Configuração de Rede</h5>
-                            <p class="card-text text-muted">Configuração e otimização de uma rede doméstica/pequena empresa, incluindo segurança e partilha de recursos.</p>
-                            <div class="d-flex flex-wrap gap-2 mb-3">
-                                <span class="badge bg-secondary">Redes</span>
-                                <span class="badge bg-secondary">Segurança</span>
-                                <span class="badge bg-secondary">Linux</span>
-                            </div>
-                            <a href="#" class="btn btn-primary btn-sm me-2">Ver Demo</a>
-                            <a href="#" class="btn btn-outline-light btn-sm">Código</a>
                         </div>
                     </div>
                 </div>
@@ -258,112 +137,131 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-5 bg-light-dark">
+    <section id="skills" class="section-light">
         <div class="container">
-            <h2 class="text-center display-4 fw-bold mb-5 text-primary">Competências</h2>
-            <p class="text-center lead mb-5 text-muted">Tecnologias e ferramentas que domino para criar soluções completas e eficientes.</p>
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <div class="mb-4">
-                        <h5 class="text-secondary">HTML/CSS</h5>
-                        <div class="progress" style="height: 20px;">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
-                        </div>
-                    </div>
-                    <div class="mb-4">
-                        <h5 class="text-secondary">JavaScript</h5>
-                        <div class="progress" style="height: 20px;">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
-                        </div>
-                    </div>
-                    <div class="mb-4">
-                        <h5 class="text-secondary">Python</h5>
-                        <div class="progress" style="height: 20px;">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
-                        </div>
-                    </div>
-                    <div class="mb-4">
-                        <h5 class="text-secondary">Bootstrap</h5>
-                        <div class="progress" style="height: 20px;">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
-                        </div>
-                    </div>
-                    <div class="mb-4">
-                        <h5 class="text-secondary">Linux</h5>
-                        <div class="progress" style="height: 20px;">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                        </div>
-                    </div>
-                    <div class="mb-4">
-                        <h5 class="text-secondary">Redes de Computadores</h5>
-                        <div class="progress" style="height: 20px;">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-                        </div>
-                    </div>
-                </div>
+            <div class="section-header">
+                <h2><span class="section-number">02.</span> Habilidades Técnicas</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="row g-4" id="skillsContainer">
+                <!-- Skills will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2><span class="section-number">03.</span> Projetos</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="filter-buttons mb-5">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="featured">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    Destaques
+                </button>
+            </div>
+            <div class="row g-4" id="projectsContainer">
+                <!-- Projects will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-light">
+        <div class="container">
+            <div class="section-header">
+                <h2><span class="section-number">04.</span> Experiência & Certificações</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline" id="experienceContainer">
+                <!-- Timeline will be loaded by JavaScript -->
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-5 bg-dark-gradient text-white">
+    <section id="contact" class="section-dark">
         <div class="container">
-            <h2 class="text-center display-4 fw-bold mb-5 text-primary">Contacto</h2>
-            <p class="text-center lead mb-5 text-muted">Tem um projeto em mente? Vamos conversar sobre como posso ajudar a torná-lo realidade.</p>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Nome</label>
-                            <input type="text" class="form-control bg-dark-card text-white border-0" id="name" required>
+            <div class="section-header text-center">
+                <h2><span class="section-number">05.</span> Entre em Contato</h2>
+                <div class="section-line mx-auto"></div>
+                <p class="text-secondary fs-5 mt-3">Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato!</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <a href="mailto:seu.email@exemplo.com" id="contactEmail" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
                         </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control bg-dark-card text-white border-0" id="email" required>
+                        <h5>Email</h5>
+                        <p>seu.email@exemplo.com</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://linkedin.com/in/seu-perfil" id="contactLinkedin" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
                         </div>
-                        <div class="mb-3">
-                            <label for="subject" class="form-label">Assunto</label>
-                            <input type="text" class="form-control bg-dark-card text-white border-0" id="subject" required>
+                        <h5>LinkedIn</h5>
+                        <p>Conecte-se comigo</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/seu-usuario" id="contactGithub" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
                         </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Mensagem</label>
-                            <textarea class="form-control bg-dark-card text-white border-0" id="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-lg w-100">Enviar Mensagem</button>
-                    </form>
+                        <h5>GitHub</h5>
+                        <p>Veja meus projetos</p>
+                    </a>
                 </div>
             </div>
-            <div class="row text-center mt-5">
-                <div class="col-md-4">
-                    <i class="bi bi-envelope-fill icon-lg text-primary mb-3"></i>
-                    <p class="text-muted">seu.email@exemplo.com</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="bi bi-phone-fill icon-lg text-primary mb-3"></i>
-                    <p class="text-muted">+351 123 456 789</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="bi bi-geo-alt-fill icon-lg text-primary mb-3"></i>
-                    <p class="text-muted">Lisboa, Portugal</p>
-                </div>
+            <div class="text-center mt-5">
+                <a href="mailto:seu.email@exemplo.com" class="btn btn-primary btn-lg">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 8px;">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                    Enviar Mensagem
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white py-4">
+    <footer class="footer">
         <div class="container text-center">
-            <p class="mb-0">&copy; 2025 Feito com <i class="bi bi-heart-fill text-danger"></i> por um Programador Apaixonado</p>
-            <p class="mb-0 mt-2"><a href="#home" class="text-white-50">Voltar ao Topo <i class="bi bi-arrow-up"></i></a></p>
+            <p class="mb-2">
+                © <span id="currentYear"></span> Desenvolvido com 
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#00d9ff" stroke="#00d9ff" stroke-width="2" style="vertical-align: middle;">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+                usando HTML, CSS & JavaScript
+            </p>
+            <p class="footer-code">&lt;/&gt; with passion</p>
         </div>
     </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
+    
+    <!-- Custom JavaScript -->
+    <script src="js/data.js"></script>
     <script src="js/script.js"></script>
-    <!-- Bootstrap Icons CSS (for icons) -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
 </body>
 </html>
-
