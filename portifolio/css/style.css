@@ -59,7 +59,7 @@ body {
 }
 
 /* ========================================
-   NAVIGATION
+    NAVBAR
 ======================================== */
 .navbar {
     background-color: transparent !important;
@@ -98,7 +98,7 @@ body {
 }
 
 /* ========================================
-   HERO SECTION
+    HERO SECTION
 ======================================== */
 .hero-section {
     min-height: 100vh;

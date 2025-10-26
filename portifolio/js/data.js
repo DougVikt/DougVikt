@@ -4,13 +4,13 @@
 
 // Informações Pessoais
 const personalInfo = {
-    name: "Seu Nome",
-    title: "Desenvolvedor Full-Stack & Técnico em Informática",
+    name: "Douglas Viktor",
+    title: "Desenvolvedor Backend & Técnico em Informática",
     tagline: "Transformando ideias em soluções digitais",
-    email: "seu.email@exemplo.com",
-    linkedin: "https://linkedin.com/in/seu-perfil",
-    github: "https://github.com/seu-usuario",
-    bio: "Desenvolvedor full-stack apaixonado por criar experiências web modernas e funcionais. Com experiência em frontend, backend e infraestrutura, busco sempre aplicar as melhores práticas de desenvolvimento e entregar soluções de alta qualidade."
+    email: "dougvikt@proton.me",
+    linkedin: "https://linkedin.com/in/douglas-viktor-a3422b343/",
+    github: "https://github.com/dougvikt",
+    location: "Sou de Natal, RN, Brasil",
 };
 
 // Habilidades Técnicas
@@ -18,40 +18,38 @@ const skills = [
     {
         category: "Frontend",
         technologies: [
-            { name: "React", level: 90 },
-            { name: "JavaScript/TypeScript", level: 85 },
-            { name: "HTML5 & CSS3", level: 90 },
-            { name: "Tailwind CSS", level: 85 },
-            { name: "Next.js", level: 80 }
+            { name: "React", level: 10 },
+            { name: "JavaScript", level: 15 },
+            { name: "HTML5 & CSS3", level: 30 },
+            { name: "Bootstrap", level: 65 }
         ]
     },
     {
         category: "Backend",
         technologies: [
-            { name: "Node.js", level: 85 },
-            { name: "Python", level: 80 },
-            { name: "FastAPI", level: 75 },
-            { name: "Express.js", level: 80 },
-            { name: "RESTful APIs", level: 90 }
+            { name: "Python", level: 86 },
+            { name: "RESTful APIs", level: 9 },
+            { name: "SQL", level: 40 },
+            { name: "PHP", level: 32 },
         ]
     },
     {
         category: "Database",
         technologies: [
-            { name: "MongoDB", level: 85 },
-            { name: "PostgreSQL", level: 80 },
+            { name: "MongoDB", level: 10 },
             { name: "MySQL", level: 75 },
-            { name: "Redis", level: 70 }
+            { name: "PostgreSQL", level: 10 },
+            { name: "Oracle", level: 10 }
         ]
     },
     {
         category: "DevOps & Tools",
         technologies: [
-            { name: "Git & GitHub", level: 90 },
-            { name: "Docker", level: 75 },
-            { name: "Linux", level: 85 },
-            { name: "CI/CD", level: 70 },
-            { name: "AWS/Cloud", level: 65 }
+            { name: "Git & GitHub", level: 65 },
+            { name: "Windows", level: 75 },
+            { name: "Linux", level: 25 },
+            { name: "UE/UX", level: 34 }
+            
         ]
     }
 ];

@@ -27,7 +27,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // ========================================
-// TYPEWRITER EFFECT
+// EFEITO DE MÁQUINA DE ESCREVER
 // ========================================
 const titles = [
     'Desenvolvedor Full-Stack',
@@ -41,17 +41,18 @@ let charIndex = 0;
 let isDeleting = false;
 let typingSpeed = 100;
 
+// Função de digitação
 function typeWriter() {
     const typedTextElement = document.getElementById('typedText');
     const currentTitle = titles[titleIndex];
-    
+    // Verifica se está digitando ou apagando
     if (!isDeleting) {
         typedTextElement.textContent = currentTitle.substring(0, charIndex + 1);
         charIndex++;
-        
+        // Velocidade de digitação
         if (charIndex === currentTitle.length) {
             isDeleting = true;
-            typingSpeed = 2000; // Pause before deleting
+            typingSpeed = 2000; 
         } else {
             typingSpeed = 100;
         }
@@ -59,11 +60,11 @@ function typeWriter() {
         typedTextElement.textContent = currentTitle.substring(0, charIndex - 1);
         charIndex--;
         typingSpeed = 50;
-        
+        // Quando terminar de apagar, passa para o próximo título
         if (charIndex === 0) {
             isDeleting = false;
             titleIndex = (titleIndex + 1) % titles.length;
-            typingSpeed = 500; // Pause before typing next title
+            typingSpeed = 500;
         }
     }
     
@@ -76,7 +77,7 @@ function typeWriter() {
 function loadPersonalInfo() {
     document.getElementById('heroName').textContent = personalInfo.name;
     document.getElementById('heroTagline').textContent = personalInfo.tagline;
-    document.getElementById('aboutBio').textContent = personalInfo.bio;
+    document.getElementById('location').textContent = personalInfo.location;
     
     // Update contact info
     const emailLink = document.getElementById('contactEmail');
