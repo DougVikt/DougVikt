@@ -1,0 +1,19 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "html.format.enable": true,
+    "css.validate": true,
+    "javascript.validate.enable": true,
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.root": "/",
+    "bootstrap.showCss": true
+}
+// export extensions =  code --list-extensions > extensions.txt
+// import extensions = cat extensions.txt | xargs -L 1 code --install-extension
+
+// extensions = Python,Django,HTML CSS Support,Live Server,Prettier,Bootstrap 4 & 5 Snippets,JavaScript (ES6) code snippets
