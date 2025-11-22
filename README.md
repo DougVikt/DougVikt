@@ -28,7 +28,7 @@
 </code>
 </div>
 
-<img align="center" width="550px" style="margin-top:-30px" src="octocat-1682385018800.png">  
+<img align="center" width="550px" style="margin-top:-30px" src="octocat-doug.png">  
 
 <br>
 
