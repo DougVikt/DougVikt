@@ -58,12 +58,12 @@ const skills = [
 const projects = [
     {
         id: 1,
-        title: "E-Commerce Platform",
-        description: "Plataforma completa de e-commerce com carrinho, pagamentos e painel administrativo.",
-        image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
-        tags: ["React", "Node.js", "MongoDB", "Stripe"],
+        title: "Jogo Snake com python",
+        description: "Um jogo no estilo classico do game da 'cobrinha' , onde a cada multiplo de 120 aumenta o nivel , com isso a velocidade",
+        image: "img/snake.gif",
+        tags: ["Python", "Game"],
         github: "https://github.com/seu-usuario/projeto-1",
-        demo: "https://demo-projeto-1.com",
+        link: "#",
         featured: true
     },
     {
@@ -73,7 +73,7 @@ const projects = [
         image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop",
         tags: ["React", "FastAPI", "WebSockets", "PostgreSQL"],
         github: "https://github.com/seu-usuario/projeto-2",
-        demo: "https://demo-projeto-2.com",
+        link: "https://demo-projeto-2.com",
         featured: true
     },
     {
@@ -83,7 +83,7 @@ const projects = [
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
         tags: ["Next.js", "Tailwind", "Framer Motion"],
         github: "https://github.com/seu-usuario/projeto-3",
-        demo: "https://demo-projeto-3.com",
+        link: "https://demo-projeto-3.com",
         featured: false
     },
     {
@@ -93,7 +93,7 @@ const projects = [
         image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
         tags: ["Python", "FastAPI", "JWT", "Docker"],
         github: "https://github.com/seu-usuario/projeto-4",
-        demo: null,
+        link: null,
         featured: false
     },
     {
@@ -103,7 +103,7 @@ const projects = [
         image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
         tags: ["React", "D3.js", "Node.js", "MongoDB"],
         github: "https://github.com/seu-usuario/projeto-5",
-        demo: "https://demo-projeto-5.com",
+        link: "https://demo-projeto-5.com",
         featured: true
     },
     {
@@ -113,7 +113,7 @@ const projects = [
         image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop",
         tags: ["Node.js", "Express", "Firebase", "Redis"],
         github: "https://github.com/seu-usuario/projeto-6",
-        demo: null,
+        link: null,
         featured: false
     }
 ];
