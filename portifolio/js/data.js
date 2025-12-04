@@ -58,60 +58,75 @@ const skills = [
 const projects = [
     {
         id: 1,
-        title: "Jogo Snake com python",
+        title: "Snake",
         description: "Um jogo no estilo classico do game da 'cobrinha' , onde a cada multiplo de 120 aumenta o nivel , com isso a velocidade",
         image: "img/snake.gif",
         tags: ["Python", "Game"],
         github: "https://github.com/seu-usuario/projeto-1",
         link: "#",
-        featured: true
+        featured: false
     },
     {
         id: 2,
-        title: "Task Management App",
-        description: "Aplicativo de gerenciamento de tarefas com sistema de colaboração em tempo real.",
-        image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop",
-        tags: ["React", "FastAPI", "WebSockets", "PostgreSQL"],
+        title: "Ploop",
+        description: `Game no estilo quebra blocos, mas sendo so o usuario contra o sistema, objetivo e não deixar a bola cair ,
+        onde a cada 15s a velocidae da bola aumenta `,
+        image: "img/ploop.gif",
+        tags: ["Python", "Game"],
         github: "https://github.com/seu-usuario/projeto-2",
-        link: "https://demo-projeto-2.com",
-        featured: true
+        link: "#",
+        featured: false
     },
     {
         id: 3,
-        title: "Portfolio Website",
-        description: "Site de portfólio pessoal com animações e design moderno.",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-        tags: ["Next.js", "Tailwind", "Framer Motion"],
+        title: "Adivinhe a palavra",
+        description: `Game de adivinhar a palavra , onde o usuario pode criar sua lista palavras , o sistema escolherá uma palavra aleatoria
+        o usaurio tem 5 mais a quantidade de letras da palavra para acertar (ex: faca = 4 letras , 4 + 5 = 9 chances de acertar ), pode ser jogado 
+        varias vezes com a mesma lista , mas tambem tem a opção de trocar a cada fim de partida  .`,
+        image: "img/adv.gif",
+        tags: ["c#", "Game"],
         github: "https://github.com/seu-usuario/projeto-3",
         link: "https://demo-projeto-3.com",
         featured: false
     },
     {
         id: 4,
-        title: "API RESTful",
-        description: "API robusta para gerenciamento de recursos com autenticação JWT.",
-        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
-        tags: ["Python", "FastAPI", "JWT", "Docker"],
+        title: "Biblioteca Amanajé",
+        description: "Site de gerenciamento de biblioteca com autenticação de usuários e sistema de empréstimos de livros com avaliação pelos usuarios .",
+        image: "img/logo_biblio_amanaje.png",
+        tags: ["HTML","css","Bootstrap","JavaScript","PHP","Site"],
         github: "https://github.com/seu-usuario/projeto-4",
+        link: null,
+        featured: true
+    },
+    {
+        id: 5,
+        title: "Vaudio",
+        description: `App desktop que adiona atalho de aumentar e diminur o volume do sistema , 
+        rodando em segundo plano pode reagir a qualquer mon=mento que o usuario precisar .`,
+        image: "img/logo_vaudio.jpg",
+        tags: ["Python", "App desktop"],
+        github: "https://github.com/seu-usuario/projeto-5",
+        link: "https://demo-projeto-5.com",
+        featured: false
+    },
+    {
+        id: 6,
+        title: "TiClean",
+        description: `Aplicação para desktop de limpeza rotineira de arquivos temporários e desnecessários do sistema operacional, 
+        melhorando o desempenho do computador.Apos iniciado faz tudo automatizado o usuario so precisa iniciar o app e deixar ele fazer o resto .`,
+        image: "img/logo_ticlean.jpg",
+        tags: ["Python", "App desktop"],
+        github: "https://github.com/seu-usuario/projeto-6",
         link: null,
         featured: false
     },
     {
-        id: 5,
-        title: "Dashboard Analytics",
-        description: "Dashboard interativo para visualização de dados e métricas em tempo real.",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-        tags: ["React", "D3.js", "Node.js", "MongoDB"],
-        github: "https://github.com/seu-usuario/projeto-5",
-        link: "https://demo-projeto-5.com",
-        featured: true
-    },
-    {
-        id: 6,
-        title: "Mobile App Backend",
-        description: "Backend escalável para aplicativo mobile com sistema de notificações.",
-        image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop",
-        tags: ["Node.js", "Express", "Firebase", "Redis"],
+        id: 7,
+        title: "Sintonia Mental",
+        description: `Aplicação web para consultas online , onde o plubico alvo são pessoas que ja tem ou com potencial para o TDAH  .`,
+        image: "img/logo_ticlean.jpg",
+        tags: ["Python", "App desktop"],
         github: "https://github.com/seu-usuario/projeto-6",
         link: null,
         featured: false
