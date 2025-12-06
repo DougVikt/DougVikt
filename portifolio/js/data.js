@@ -27,7 +27,7 @@ const skills = [
     {
         category: "Backend",
         technologies: [
-            { name: "Python", level: 86 },
+            { name: "Python", level: 76 },
             { name: "RESTful APIs", level: 9 },
             { name: "SQL", level: 40 },
             { name: "PHP", level: 32 },
@@ -94,7 +94,7 @@ const projects = [
         title: "Biblioteca Amanajé",
         description: "Site de gerenciamento de biblioteca com autenticação de usuários e sistema de empréstimos de livros com avaliação pelos usuarios .",
         image: "img/logo_biblio_amanaje.png",
-        tags: ["HTML","css","Bootstrap","JavaScript","PHP","Site"],
+        tags: ["HTML","Css","Bootstrap","JavaScript","PHP","Site"],
         github: "https://github.com/seu-usuario/projeto-4",
         link: null,
         featured: true
@@ -124,12 +124,13 @@ const projects = [
     {
         id: 7,
         title: "Sintonia Mental",
-        description: `Aplicação web para consultas online , onde o plubico alvo são pessoas que ja tem ou com potencial para o TDAH  .`,
-        image: "img/logo_ticlean.jpg",
-        tags: ["Python", "App desktop"],
+        description: `Aplicação web para consultas online , onde o plubico alvo são pessoas que ja tem ou com potencial para o TDAH,
+        com consultas online com os medicos especialistas cadastrados , agendamentos e pagamentos tudo sem precisar ir presencialmente.`,
+        image: "img/sm_site.gif",
+        tags: ["Html","Css","JavaScript","Django","Bootstrap","Site"],
         github: "https://github.com/seu-usuario/projeto-6",
         link: null,
-        featured: false
+        featured: true
     }
 ];
 

@@ -3,12 +3,12 @@
 // ========================================
 
 // Navbar scroll effect
-$(window).on('scroll', function() {
-    const navbar = $('#mainNav');
-    if ($(this).scrollTop() > 20) {
-        navbar.addClass('scrolled');
+window.addEventListener('scroll', function() {
+    const navbar = document.getElementById('mainNav');
+    if (window.scrollY > 20) {
+        navbar.classList.add('scrolled');
     } else {
-        navbar.removeClass('scrolled');
+        navbar.classList.remove('scrolled');
     }
 });
 
