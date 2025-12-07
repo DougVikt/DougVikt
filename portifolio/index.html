@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - DougVikt</title>
     
-    <!-- Bootstrap CSS -->
+    <!-- CSS do Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
-    <!-- Google Fonts -->
+    <!-- Fontes do Google -->
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Custom CSS -->
+    <!-- CSS Personalizado -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- Header/Navigation -->
+    <!-- Cabeçalho/Navegação -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#hero">&lt;DougVikt&gt;</a>
@@ -35,7 +34,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Seção Hero -->
     <section id="hero" class="hero-section">
         <div class="hero-background">
             <div class="grid-pattern"></div>
@@ -47,7 +46,9 @@
                 <div class="col-lg-10">
                     <p class="hero-greeting">&gt; Olá, eu sou</p>
                     <h1 class="hero-name" id="heroName">Doug Vikt</h1>
-                    <img class="hero-avatar" id="heroAvatar" src="img/avatar.png" alt="Avatar de Doug Vikt">
+                    <div class="hero-avatar-back">
+                        <img class="hero-avatar" id="heroAvatar" src="img/avatar.png" alt="Avatar de Doug Vikt">
+                    </div>
                     <div class="hero-title-container">
                         <h2 class="hero-title" id="typedText"></h2>
                         <span class="cursor">I</span>
@@ -68,7 +69,7 @@
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Seção Sobre -->
     <section id="about" class="section-dark">
         <div class="container">
             <div class="section-header">
@@ -138,7 +139,7 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Seção Habilidades -->
     <section id="skills" class="section-light">
         <div class="container">
             <div class="section-header">
@@ -146,12 +147,12 @@
                 <div class="section-line"></div>
             </div>
             <div class="row g-4" id="skillsContainer">
-                <!-- Skills will be loaded by JavaScript -->
+                <!-- As habilidades serão carregadas pelo JavaScript -->
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Seção Projetos -->
     <section id="projects" class="section-dark">
         <div class="container">
             <div class="section-header">
@@ -168,12 +169,12 @@
                 </button>
             </div>
             <div class="row g-4" id="projectsContainer">
-                <!-- Projects will be loaded by JavaScript -->
+                <!-- Os projetos serão carregados pelo JavaScript -->
             </div>
         </div>
     </section>
 
-    <!-- Experience Section -->
+    <!-- Seção Experiência -->
     <section id="experience" class="section-light">
         <div class="container">
             <div class="section-header">
@@ -181,12 +182,12 @@
                 <div class="section-line"></div>
             </div>
             <div class="timeline" id="experienceContainer">
-                <!-- Timeline will be loaded by JavaScript -->
+                <!-- A linha do tempo será carregada pelo JavaScript -->
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Seção Contato -->
     <section id="contact" class="section-dark">
         <div class="container">
             <div class="section-header text-center">
@@ -244,7 +245,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Rodapé -->
     <footer class="footer">
         <div class="container text-center">
             <p class="mb-2">
@@ -252,16 +253,15 @@
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="#00d9ff" stroke="#00d9ff" stroke-width="2" style="vertical-align: middle;">
                     <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
                 </svg>
-                usando HTML, CSS & JavaScript
             </p>
-            <p class="footer-code">&lt;/&gt; with passion</p>
+            <p>Agradeço por visitar meu portifolio</p>
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
+    <!-- JS do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- Custom JavaScript -->
+    <!-- JavaScript Personalizado -->
     <script src="js/data.js"></script>
     <script src="js/script.js"></script>
 
