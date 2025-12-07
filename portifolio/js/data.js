@@ -63,7 +63,6 @@ const projects = [
         image: "img/snake.gif",
         tags: ["Python", "Game"],
         github: "https://github.com/seu-usuario/projeto-1",
-        link: "#",
         featured: false
     },
     {
@@ -74,7 +73,6 @@ const projects = [
         image: "img/ploop.gif",
         tags: ["Python", "Game"],
         github: "https://github.com/seu-usuario/projeto-2",
-        link: "#",
         featured: false
     },
     {
@@ -86,7 +84,6 @@ const projects = [
         image: "img/adv.gif",
         tags: ["c#", "Game"],
         github: "https://github.com/seu-usuario/projeto-3",
-        link: "https://demo-projeto-3.com",
         featured: false
     },
     {
@@ -96,7 +93,6 @@ const projects = [
         image: "img/logo_biblio_amanaje.png",
         tags: ["HTML","Css","Bootstrap","JavaScript","PHP","Site"],
         github: "https://github.com/seu-usuario/projeto-4",
-        link: null,
         featured: true
     },
     {
@@ -107,7 +103,6 @@ const projects = [
         image: "img/logo_vaudio.jpg",
         tags: ["Python", "App desktop"],
         github: "https://github.com/seu-usuario/projeto-5",
-        link: "https://demo-projeto-5.com",
         featured: false
     },
     {
@@ -118,7 +113,6 @@ const projects = [
         image: "img/logo_ticlean.jpg",
         tags: ["Python", "App desktop"],
         github: "https://github.com/seu-usuario/projeto-6",
-        link: null,
         featured: false
     },
     {
@@ -128,8 +122,7 @@ const projects = [
         com consultas online com os medicos especialistas cadastrados , agendamentos e pagamentos tudo sem precisar ir presencialmente.`,
         image: "img/sm_site.gif",
         tags: ["Html","Css","JavaScript","Django","Bootstrap","Site"],
-        github: "https://github.com/seu-usuario/projeto-6",
-        link: null,
+        github: "https://github.com/DougVikt/Sintonia-da-mente",
         featured: true
     }
 ];
