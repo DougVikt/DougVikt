@@ -37,12 +37,11 @@ Estou sempre aberto a novas conexões e oportunidades. Vamos conversar sobre tec
 <img align="center" width="550px" style="margin-top:-30px" src="octocat-doug.png">  
 
 <br>
-<div align="center">
-https://komarev.com/ghpvc/?username=DougVikt&color=blueviolet&style=flat-square
-</div>
+<div align="center" >
 
 ![Profile Views](https://komarev.com/ghpvc/?username=DougVikt&color=red&style=flat-square)
 
+</div>
 <div align="center">
   <p>Obrigado pela visita! Sinta-se à vontade para explorar os repositórios e ver o que estou construindo. 👨‍💻</p>
 </div>
