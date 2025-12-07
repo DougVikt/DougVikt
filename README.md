@@ -38,24 +38,13 @@ Estou sempre aberto a novas conexões e oportunidades. Vamos conversar sobre tec
 
 <br>
 <div align="center">
-https://komarev.com/ghpvc/?username=DouglasVikt&color=blueviolet&style=flat-square
+https://komarev.com/ghpvc/?username=DougVikt&color=blueviolet&style=flat-square
 </div>
 
-## 📊 ESTATÍSTICAS DO GITHUB
-
-<div align="center">
-
-<!-- ESTA É A VERSÃO QUE FUNCIONA -->
-![Estatísticas GitHub](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=DouglasVikt&show_icons=true&theme=radical&hide_border=true)
-
-![Linguagens mais usadas](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=DouglasVikt&layout=compact&theme=radical&hide_border=true)
-
-</div>
 
 <div align="center">
   <p>Obrigado pela visita! Sinta-se à vontade para explorar os repositórios e ver o que estou construindo. 👨‍💻</p>
 </div>
 
-https://github.com/DouglasVikt/DouglasVikt/blob/output/github-contribution-grid-snake.svg
 
 
