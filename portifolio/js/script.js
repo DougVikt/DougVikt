@@ -251,6 +251,11 @@ function loadExperience() {
         itemDiv.className = 'timeline-item';
         itemDiv.innerHTML = `
             <div class="row">
+                <div class="timeline-icon d-none d-md-flex">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        ${icon}
+                    </svg>
+                </div>
                 <div class="col-md-6 ${isEven ? 'order-md-1' : 'order-md-2'}">
                     <div class="timeline-content ${alignClass}">
                         <div class="timeline-header ${isEven ? 'flex-md-row-reverse' : 'flex-row'} ${isEven ? 'text-md-end' : 'text-start'} d-flex flex-row text-start">
@@ -271,11 +276,6 @@ function loadExperience() {
                 <div class="col-md-6 ${isEven ? 'order-md-2' : 'order-md-1'}">
                     <!-- Empty space for alternating layout -->
                 </div>
-            </div>
-            <div class="timeline-icon d-none d-md-flex">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    ${icon}
-                </svg>
             </div>
         `;
         

@@ -62,7 +62,7 @@ const projects = [
         description: "Um jogo no estilo classico do game da 'cobrinha' , onde a cada multiplo de 120 aumenta o nivel , com isso a velocidade",
         image: "img/snake.gif",
         tags: ["Python", "Game"],
-        github: "https://github.com/seu-usuario/projeto-1",
+        github: "https://github.com/DougVikt/GAMES",
         featured: false
     },
     {
@@ -72,7 +72,7 @@ const projects = [
         onde a cada 15s a velocidae da bola aumenta `,
         image: "img/ploop.gif",
         tags: ["Python", "Game"],
-        github: "https://github.com/seu-usuario/projeto-2",
+        github: "https://github.com/DougVikt/GAMES",
         featured: false
     },
     {
@@ -83,7 +83,7 @@ const projects = [
         varias vezes com a mesma lista , mas tambem tem a opção de trocar a cada fim de partida  .`,
         image: "img/adv.gif",
         tags: ["c#", "Game"],
-        github: "https://github.com/seu-usuario/projeto-3",
+        github: "https://github.com/DougVikt/GAMES",
         featured: false
     },
     {
@@ -92,7 +92,7 @@ const projects = [
         description: "Site de gerenciamento de biblioteca com autenticação de usuários e sistema de empréstimos de livros com avaliação pelos usuarios .",
         image: "img/logo_biblio_amanaje.png",
         tags: ["HTML","Css","Bootstrap","JavaScript","PHP","Site"],
-        github: "https://github.com/seu-usuario/projeto-4",
+        github: "https://github.com/DougVikt/SITE_GERENT_BIBLIOTECA",
         featured: true
     },
     {
@@ -102,7 +102,7 @@ const projects = [
         rodando em segundo plano pode reagir a qualquer mon=mento que o usuario precisar .`,
         image: "img/logo_vaudio.jpg",
         tags: ["Python", "App desktop"],
-        github: "https://github.com/seu-usuario/projeto-5",
+        github: "https://github.com/DougVikt/APP_V-AUDIO",
         featured: false
     },
     {
@@ -112,7 +112,7 @@ const projects = [
         melhorando o desempenho do computador.Apos iniciado faz tudo automatizado o usuario so precisa iniciar o app e deixar ele fazer o resto .`,
         image: "img/logo_ticlean.jpg",
         tags: ["Python", "App desktop"],
-        github: "https://github.com/seu-usuario/projeto-6",
+        github: "https://github.com/DougVikt/Acessorios_de_TI",
         featured: false
     },
     {
@@ -131,9 +131,9 @@ const projects = [
 const experience = [
     {
         id: 1,
-        title: "Desenvolvedor Full-Stack",
-        company: "Nome da Empresa",
-        period: "2022 - Presente",
+        title: "Técnico em informática",
+        company: "Grau Técnico",
+        period: "202",
         description: "Desenvolvimento de aplicações web completas, desde o frontend até o backend, utilizando React, Node.js e MongoDB. Implementação de APIs RESTful e integração com serviços externos.",
         type: "work"
     },
@@ -155,10 +155,10 @@ const experience = [
     },
     {
         id: 4,
-        title: "Curso de Desenvolvimento Web Full-Stack",
-        company: "Instituição de Ensino",
-        period: "2021",
-        description: "Formação completa em desenvolvimento web, incluindo frontend, backend, banco de dados e deploy.",
-        type: "education"
+        title: "Técnico em Informática",
+        company: "Grau Educacional",
+        period: "Atualmente Trabalhando",
+        description: "Suporte técnico, manutenção de sistemas, configuração de redes e resolução de problemas de hardware e software.",
+        type: "work"
     }
 ];
