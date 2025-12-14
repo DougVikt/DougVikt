@@ -7,7 +7,7 @@ const personalInfo = {
     name: "Douglas Viktor",
     title: "Desenvolvedor Backend & Técnico em Informática",
     tagline: "Transformando ideias em soluções digitais",
-    email: "dougvikt@proton.me",
+    email: "douglasviktormartins@hotmail.com",
     linkedin: "https://linkedin.com/in/douglas-viktor-a3422b343/",
     github: "https://github.com/dougvikt",
     location: "Sou de Natal, RN, Brasil",
@@ -133,28 +133,38 @@ const experience = [
         id: 1,
         title: "Técnico em informática",
         company: "Grau Técnico",
-        period: "202",
-        description: "Desenvolvimento de aplicações web completas, desde o frontend até o backend, utilizando React, Node.js e MongoDB. Implementação de APIs RESTful e integração com serviços externos.",
-        type: "work"
-    },
-    {
-        id: 2,
-        title: "Técnico em Informática",
-        company: "Nome da Empresa",
-        period: "2020 - 2022",
-        description: "Suporte técnico, manutenção de sistemas, configuração de redes e resolução de problemas de hardware e software.",
-        type: "work"
-    },
-    {
-        id: 3,
-        title: "Certificação AWS Cloud Practitioner",
-        company: "Amazon Web Services",
-        period: "2023",
-        description: "Certificação em fundamentos de cloud computing e serviços AWS.",
+        period: "2022-2024",
+        description: `Curso técnico com ênfase em Programação Web para desenvolver soluções digitais inovadoras, codificação e manutenção de sites e aplicativos web responsivos.
+        Integra conhecimentos de front-end (HTML, CSS, JavaScript) e back-end (PHP, Node.js, bancos de dados como MySQL), com tambem manutenção de hardware e software, 
+        configuração de redes e suporte técnico.`,
         type: "certification"
     },
     {
+        id: 2,
+        title: "Framework Bootstrap",
+        company: "Grau Educacional",
+        period: "2023",
+        description: "Curso focado no desenvolvimento de interfaces responsivas e modernas utilizando o framework Bootstrap, abrangendo conceitos de design, componentes e personalização.",
+        type: "education"
+    },
+    {
+        id: 3,
+        title: "POO com python",
+        company: "Fundação Bradesco",
+        period: "2023",
+        description: "Curso que aborda os princípios da Programação Orientada a Objetos (POO) utilizando a linguagem Python, incluindo conceitos como classes, objetos, herança, encapsulamento e polimorfismo.",
+        type: "education"
+    },
+     {
         id: 4,
+        title: "Técnologo Beckend",
+        company: "Cruzeiro do Sul",
+        period: "2025-2027",
+        description: "Curso focado no desenvolvimento de aplicações web do lado do servidor, abrangendo linguagens como Python, Node.js e PHP, além de bancos de dados, APIs e segurança.",
+        type: "certification"
+    },
+    {
+        id: 5,
         title: "Técnico em Informática",
         company: "Grau Educacional",
         period: "Atualmente Trabalhando",

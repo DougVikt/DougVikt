@@ -26,6 +26,47 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+// Efeito de foco nas seções
+const secoes = document.querySelectorAll('.section-foco');
+
+function criarObserver() {
+    return new IntersectionObserver((entries) => {
+        let secaoMaisVisivel = null;
+        let maiorPorcentagem = 0;
+        entries.forEach(entry => {
+            const porcentagemVisivel = entry.intersectionRatio;
+            
+            // Escolhe a seção com maior % visível
+            if (porcentagemVisivel > maiorPorcentagem) {
+                maiorPorcentagem = porcentagemVisivel;
+                secaoMaisVisivel = entry.target;
+            }
+        });
+        // Se nenhuma seção tem pelo menos 10% visível, usa a primeira
+        if (maiorPorcentagem < 0.1) {
+            secaoMaisVisivel = secoes[0];
+        }
+        // Aplica o foco
+        secoes.forEach(sec => {
+            if (sec === secaoMaisVisivel) {
+                sec.classList.add('active');
+                sec.classList.remove('inactive');
+            } else {
+                sec.classList.remove('active');
+                sec.classList.add('inactive');
+            }
+        });
+    }, {
+        threshold: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9], // Muitos thresholds
+        rootMargin: '-5% 0px -15% 0px'
+    });
+}
+const observer = criarObserver();
+secoes.forEach(sec => observer.observe(sec));
+// Foco inicial
+secoes[0]?.classList.add('active');
+
+
 // ========================================
 // EFEITO DE MÁQUINA DE ESCREVER
 // ========================================

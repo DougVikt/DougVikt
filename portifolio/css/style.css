@@ -296,6 +296,18 @@ body {
 /* ========================================
    SECTIONS
 ======================================== */
+.section-foco {
+    transition: all 0.35s ease-out;
+    position: relative;
+}
+.section-foco.active {
+    filter: blur(0) ;
+    transform: scale(1);
+}
+.section-foco.inactive {
+    filter: blur(3px);
+    transform: scale(0.99);
+}
 .section-dark {
     background-color: var(--color-black);
     padding: 5rem 0;
