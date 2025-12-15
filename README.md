@@ -6,16 +6,24 @@
  ***A estagnação leva ao fracasso***
 
 📍 **Localização:** Natal, Rio Grande do Norte.
+
+<br>
+
+---
+
+<br>
   
 ## 🤝 Vamos Conectar?
 
 Estou sempre aberto a novas conexões e oportunidades. Vamos conversar sobre tecnologia e projetos!
+ 
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=lospec&logoColor=whitek&color=blue&link=https://www.linkedin.com/in/douglas-viktor-a3422b343/)](https://www.linkedin.com/in/douglas-viktor-a3422b343/)  [![Portifolio](https://img.shields.io/badge/-Portfolio-137300?style=for-the-badge&logo=proton&logoColor=white&color=137300&link=https://dougvikt.github.io/DougVikt/)](https://dougvikt.github.io/DougVikt/)
 
-[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglas-viktor-a3422b343/)](https://www.linkedin.com/in/douglas-viktor-a3422b343/)
-
-[![Portifolio](https://img.shields.io/badge/Meu_Portfolio-137300?style=for-the-badge&logo=#E4007B&logoColor=black&link=https://dougvikt.github.io/DougVikt/)](https://dougvikt.github.io/DougVikt/)
+<br>
 
 ---
+
+<br>
 
 ## 💻 LINGUAGENS
 
@@ -28,6 +36,8 @@ Estou sempre aberto a novas conexões e oportunidades. Vamos conversar sobre tec
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="50" height="50" alt="logo mysql" title="mysql"/></code>
 </div>
 
+<br>
+
 ## 🏗️ FRAMEWORKS
 
 <div display="inline-block">
@@ -39,6 +49,7 @@ Estou sempre aberto a novas conexões e oportunidades. Vamos conversar sobre tec
 <img align="center" width="550px" style="margin-top:-30px" src="octocat-doug.png">  
 
 <br>
+
 <div align="center" >
 
 ![Profile Views](https://komarev.com/ghpvc/?username=DougVikt&color=red&style=flat-square)
