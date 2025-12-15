@@ -13,6 +13,8 @@ Estou sempre aberto a novas conexões e oportunidades. Vamos conversar sobre tec
 
 [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglas-viktor-a3422b343/)](https://www.linkedin.com/in/douglas-viktor-a3422b343/)
 
+[![Portifolio](https://img.shields.io/badge/Meu_Portfolio-137300?style=for-the-badge&logo=#E4007B&logoColor=black&link=https://dougvikt.github.io/DougVikt/)](https://dougvikt.github.io/DougVikt/)
+
 ---
 
 ## 💻 LINGUAGENS
