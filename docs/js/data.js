@@ -28,7 +28,8 @@ const skills = [
         category: "Backend",
         technologies: [
             { name: "Python", level: 76 },
-            { name: "RESTful APIs", level: 9 },
+            { name: "Django", level: 30 },
+            { name: "RESTful APIs", level: 12 },
             { name: "SQL", level: 40 },
             { name: "PHP", level: 32 },
         ]
@@ -122,7 +123,7 @@ const projects = [
         com consultas online com os medicos especialistas cadastrados , agendamentos e pagamentos tudo sem precisar ir presencialmente.`,
         image: "img/sm_site.gif",
         tags: ["Html","Css","JavaScript","Django","Bootstrap","Site"],
-        github: "https://github.com/DougVikt/Sintonia-da-mente",
+        github: "https://github.com/DougVikt/SintoniaMental",
         featured: true
     }
 ];
