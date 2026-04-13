@@ -28,7 +28,7 @@ const skills = [
         category: "Backend",
         technologies: [
             { name: "Python", level: 76 },
-            { name: "Django", level: 30 },
+            { name: "Django", level: 35 },
             { name: "RESTful APIs", level: 12 },
             { name: "SQL", level: 40 },
             { name: "PHP", level: 32 },
@@ -40,7 +40,7 @@ const skills = [
             { name: "MongoDB", level: 10 },
             { name: "MySQL", level: 75 },
             { name: "PostgreSQL", level: 10 },
-            { name: "Oracle", level: 10 }
+            { name: "Oracle", level: 12 }
         ]
     },
     {
@@ -49,7 +49,8 @@ const skills = [
             { name: "Git & GitHub", level: 65 },
             { name: "Windows", level: 75 },
             { name: "Linux", level: 25 },
-            { name: "UE/UX", level: 34 }
+            { name: "UE/UX", level: 34 },
+            { name: "Docker", level: 12 }
             
         ]
     }
@@ -125,7 +126,18 @@ const projects = [
         tags: ["Html","Css","JavaScript","Django","Bootstrap","Site"],
         github: "https://github.com/DougVikt/SintoniaMental",
         featured: true
+    },
+    {
+        id: 8,
+        title: "Api Cine Reserve",
+        description: `Api projetada para gerenciar as complexidades das operações modernas de cinema com foco na integridade dos dados
+         e no controle de concorrência`,
+        image: "img/api.jpeg",
+        tags: ["Python", "Django"],
+        github: "https://github.com/DougVikt/API-CineReserve",
+        featured: true
     }
+
 ];
 
 // Experiência e Certificações
