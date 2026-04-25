@@ -125,6 +125,7 @@ const projects = [
         image: "img/sm_site.gif",
         tags: ["Html","Css","JavaScript","Django","Bootstrap","Site"],
         github: "https://github.com/DougVikt/SintoniaMental",
+        demo: "https://sintoniamental.onrender.com",
         featured: true
     },
     {
