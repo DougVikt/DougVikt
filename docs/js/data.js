@@ -95,7 +95,7 @@ const projects = [
         image: "img/logo_biblio_amanaje.png",
         tags: ["HTML","Css","Bootstrap","JavaScript","PHP","Site"],
         github: "https://github.com/DougVikt/SITE_GERENT_BIBLIOTECA",
-        featured: true
+        featured: false
     },
     {
         id: 5,
@@ -136,7 +136,18 @@ const projects = [
         image: "img/api.jpeg",
         tags: ["Python", "Django"],
         github: "https://github.com/DougVikt/API-CineReserve",
+        featured: false
+    },
+    {
+        id:9,
+        title: "Dj-Reframe",
+        description: `É um CLI para transformar o comando startapp padrão do Django. Ao invés de estrutura genérica padrão,
+         e so escolher a arquitetura ou cria sua propria `,
+        image:"img/dj-reframe.jpeg",
+        tags:["Python","Django","Pacote Pypi" , "CLI"],
+        github:"https://github.com/DougVikt/dj-reframe",
         featured: true
+
     }
 
 ];
