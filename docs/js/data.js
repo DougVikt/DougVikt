@@ -126,7 +126,7 @@ const projects = [
         tags: ["Html","Css","JavaScript","Django","Bootstrap","Site"],
         github: "https://github.com/DougVikt/SintoniaMental",
         demo: "https://sintoniamental.onrender.com",
-        featured: true
+        featured: false
     },
     {
         id: 8,
@@ -134,7 +134,7 @@ const projects = [
         description: `Api projetada para gerenciar as complexidades das operações modernas de cinema com foco na integridade dos dados
          e no controle de concorrência`,
         image: "img/api.jpeg",
-        tags: ["Python", "Django"],
+        tags: ["Python", "Django","Django Rest Framework"],
         github: "https://github.com/DougVikt/API-CineReserve",
         featured: false
     },
@@ -148,8 +148,32 @@ const projects = [
         github:"https://github.com/DougVikt/dj-reframe",
         featured: true
 
-    }
+    },
+      {
+        id:10,
+        title: "App Agendamento",
+        description: `Sistema web completo para gerenciamento de agendamentos desenvolvido com Python/Flask. 
+        Permite que a central de atendimento agende horarios com colaboradores, que cada colaborador gerencie 
+        sua propria agenda, e que administradores tenham controle total sobre os dados.`,
+        image:"img/app_agendamento.gif",
+        tags:["Python","Flask","Web" , "Intranet"],
+        github:"https://github.com/DougVikt/app_agendamento",
+        featured: false
 
+    },
+     {
+        id:11,
+        title: "DataSwitch",
+        description: `Site conversor de dados e legendas , feito com React pensado na segurança dos arquivos enviados pelos usuarios 
+        e 100% com arquitetura client-side (lado do cliente). Com conversões para tipos de de arquivo JSON, CSV, XLSX, SQL, entre outros`,
+        image:"img/dataswitch.gif",
+        tags:["React","Web"],
+        site:"https://dataswitch.com.br",
+        github:"",
+        featured: true
+
+    }
+    
 ];
 
 // Experiência e Certificações
@@ -174,6 +198,15 @@ const experience = [
     },
     {
         id: 3,
+        title: "Engenharia de prompt",
+        company: "pensarcursos.com",
+        period: "2026",
+        description: `Formação como um treinamento rápido e de nível intermediário, desenhado para capacitar a dominarem o uso de ferramentas de Inteligência Artificial generativa. 
+        O foco central é ensinar a testar e refinar instruções de texto para obter respostas exatas de modelos de IA`,
+        type: "education"
+    },
+    {
+        id: 4,
         title: "POO com python",
         company: "Fundação Bradesco",
         period: "2023",
@@ -181,7 +214,7 @@ const experience = [
         type: "education"
     },
      {
-        id: 4,
+        id: 5,
         title: "Técnologo Beckend",
         company: "Cruzeiro do Sul",
         period: "2025-2027",
@@ -189,7 +222,7 @@ const experience = [
         type: "certification"
     },
     {
-        id: 5,
+        id:6,
         title: "Técnico em Informática",
         company: "Grau Educacional",
         period: "Atualmente Trabalhando",
