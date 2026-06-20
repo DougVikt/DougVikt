@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" id="htmlTag">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - DougVikt</title>
@@ -24,11 +24,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projetos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experiência</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav.about">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills" data-i18n="nav.skills">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects" data-i18n="nav.projects">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience" data-i18n="nav.experience">Experiência</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav.contact">Contato</a></li>
+                    <li class="nav-item dropdown ms-lg-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="langSwitcher">
+                            🌐 PT
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><button class="dropdown-item" data-lang="pt-BR">🇧🇷 Português</button></li>
+                            <li><button class="dropdown-item" data-lang="en">🇺🇸 English</button></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -44,7 +53,7 @@
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-lg-10">
-                    <p class="hero-greeting">&gt; Olá, eu sou</p>
+                    <p class="hero-greeting" data-i18n="hero.greeting">&gt; Olá, eu sou</p>
                     <h1 class="hero-name" id="heroName">Doug Vikt</h1>
                     <div class="hero-avatar-back">
                         <img class="hero-avatar" id="heroAvatar" src="img/avatar.png" alt="Avatar de Doug Vikt">
@@ -53,10 +62,10 @@
                         <h2 class="hero-title" id="typedText"></h2>
                         <span class="cursor">I</span>
                     </div>
-                    <p class="hero-tagline" id="heroTagline">Resolvendo problemas de maneiras ageis</p>
+                    <p class="hero-tagline" id="heroTagline" data-i18n="hero.tagline">Resolvendo problemas de maneiras ageis</p>
                     <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary btn-lg">Ver Projetos</a>
-                        <a href="#contact" class="btn btn-outline-primary btn-lg">Entrar em Contato</a>
+                        <a href="#projects" class="btn btn-primary btn-lg" data-i18n="hero.btnProjects">Ver Projetos</a>
+                        <a href="#contact" class="btn btn-outline-primary btn-lg" data-i18n="hero.btnContact">Entrar em Contato</a>
                     </div>
                     <div class="scroll-indicator">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -73,17 +82,17 @@
     <section id="about" class="section-dark section-foco" >
         <div class="container">
             <div class="section-header">
-                <h2><span class="section-number">01.</span> Sobre Mim</h2>
+                <h2><span class="section-number">01.</span> <span data-i18n="section.about">Sobre Mim</span></h2>
                 <div class="section-line"></div>
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <p class="text-secondary fs-5" id="aboutBio">
+                    <p class="text-secondary fs-5" id="aboutBio" data-i18n="about.bio1">
                         Desenvolvedor apaixonado por criar experiências web modernas e funcionais. 
                         Quero experiências novas no desenvolvimento de tecnologias , busco sempre aplicar as melhores 
                         práticas de desenvolvimento e entregar soluções de alta qualidade e seguras.
                     </p>
-                    <p class="text-secondary fs-5">
+                    <p class="text-secondary fs-5" data-i18n="about.bio2">
                         Minha maior prioridade é criar soluções praticas para ações repetitivas complexas, sempre mantendo qualidade e organização do código.
                     </p>
                     <p class="text-secondary fs-5" id="location"></p>
@@ -96,8 +105,8 @@
                                     <polyline points="16 18 22 12 16 6"></polyline>
                                     <polyline points="8 6 2 12 8 18"></polyline>
                                 </svg>
-                                <h5>Frontend</h5>
-                                <p>Bootstrap, HTML , CSS</p>
+                                <h5 data-i18n="about.card.frontend">Frontend</h5>
+                                <p data-i18n="about.card.frontend.desc">Bootstrap, HTML , CSS</p>
                             </div>
                         </div>
                         <div class="col-6">
@@ -108,8 +117,8 @@
                                     <line x1="6" y1="6" x2="6.01" y2="6"></line>
                                     <line x1="6" y1="18" x2="6.01" y2="18"></line>
                                 </svg>
-                                <h5>Backend</h5>
-                                <p>PHP, Python, SQL</p>
+                                <h5 data-i18n="about.card.backend">Backend</h5>
+                                <p data-i18n="about.card.backend.desc">PHP, Python, SQL</p>
                             </div>
                         </div>
                         <div class="col-6">
@@ -119,8 +128,8 @@
                                     <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
                                     <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
                                 </svg>
-                                <h5>Database</h5>
-                                <p>MongoDB, MySql, Oracle</p>
+                                <h5 data-i18n="about.card.database">Database</h5>
+                                <p data-i18n="about.card.database.desc">MongoDB, MySql, Oracle</p>
                             </div>
                         </div>
                         <div class="col-6">
@@ -129,8 +138,8 @@
                                     <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                                     <circle cx="12" cy="7" r="4"></circle>
                                 </svg>
-                                <h5>Técnico</h5>
-                                <p>Suporte, Redes, Infraestrutura, Manutenção</p>
+                                <h5 data-i18n="about.card.tech">Técnico</h5>
+                                <p data-i18n="about.card.tech.desc">Suporte, Redes, Infraestrutura, Manutenção</p>
                             </div>
                         </div>
                     </div>
@@ -143,7 +152,7 @@
     <section id="skills" class="section-light section-foco">
         <div class="container">
             <div class="section-header">
-                <h2><span class="section-number">02.</span> Habilidades Técnicas</h2>
+                <h2><span class="section-number">02.</span> <span data-i18n="section.skills">Habilidades Técnicas</span></h2>
                 <div class="section-line"></div>
             </div>
             <div class="row g-4" id="skillsContainer">
@@ -156,16 +165,16 @@
     <section id="projects" class="section-dark section-foco">
         <div class="container">
             <div class="section-header">
-                <h2><span class="section-number">03.</span> Projetos</h2>
+                <h2><span class="section-number">03.</span> <span data-i18n="section.projects">Projetos</span></h2>
                 <div class="section-line"></div>
             </div>
             <div class="filter-buttons mb-5">
-                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn active" data-filter="all" data-i18n="filter.all">Todos</button>
                 <button class="filter-btn" data-filter="featured">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2">
                         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
                     </svg>
-                    Destaques
+                    <span data-i18n="filter.featured">Destaques</span>
                 </button>
             </div>
             <div class="row g-4" id="projectsContainer">
@@ -178,7 +187,7 @@
     <section id="experience" class="section-light section-foco">
         <div class="container">
             <div class="section-header">
-                <h2><span class="section-number">04.</span> Experiência & Certificações</h2>
+                <h2><span class="section-number">04.</span> <span data-i18n="section.experience">Experiência & Certificações</span></h2>
                 <div class="section-line"></div>
             </div>
             <div class="timeline" id="experienceContainer">
@@ -191,9 +200,9 @@
     <section id="contact" class="section-dark section-foco">
         <div class="container">
             <div class="section-header text-center">
-                <h2><span class="section-number">05.</span> Entre em Contato</h2>
+                <h2><span class="section-number">05.</span> <span data-i18n="section.contact">Entre em Contato</span></h2>
                 <div class="section-line mx-auto"></div>
-                <p class="text-secondary fs-5 mt-3">Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato!</p>
+                <p class="text-secondary fs-5 mt-3" data-i18n="contact.subtitle">Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato!</p>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-md-4">
@@ -204,7 +213,7 @@
                                 <polyline points="22,6 12,13 2,6"></polyline>
                             </svg>
                         </div>
-                        <h5>Email</h5>
+                        <h5 data-i18n="contact.email">Email</h5>
                         <p>seu.email@exemplo.com</p>
                     </a>
                 </div>
@@ -217,8 +226,8 @@
                                 <circle cx="4" cy="4" r="2"></circle>
                             </svg>
                         </div>
-                        <h5>LinkedIn</h5>
-                        <p>Conecte-se comigo</p>
+                        <h5 data-i18n="contact.linkedin">LinkedIn</h5>
+                        <p data-i18n="contact.linkedin.desc">Conecte-se comigo</p>
                     </a>
                 </div>
                 <div class="col-md-4">
@@ -228,8 +237,8 @@
                                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                             </svg>
                         </div>
-                        <h5>GitHub</h5>
-                        <p>Veja meus projetos</p>
+                        <h5 data-i18n="contact.github">GitHub</h5>
+                        <p data-i18n="contact.github.desc">Veja meus projetos</p>
                     </a>
                 </div>
             </div>
@@ -239,7 +248,7 @@
                         <line x1="22" y1="2" x2="11" y2="13"></line>
                         <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
                     </svg>
-                    Enviar Mensagem
+                    <span data-i18n="contact.btn">Enviar Mensagem</span>
                 </a>
             </div>
         </div>
@@ -249,12 +258,12 @@
     <footer class="footer">
         <div class="container text-center">
             <p class="mb-2">
-                © <span id="currentYear"></span> Desenvolvido com 
+                © <span id="currentYear"></span> <span data-i18n="footer.madeWith">Desenvolvido com</span> 
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="#00d9ff" stroke="#00d9ff" stroke-width="2" style="vertical-align: middle;">
                     <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
                 </svg>
             </p>
-            <p>Agradeço por visitar meu portifolio</p>
+            <p data-i18n="footer.thanks">Agradeço por visitar meu portifolio</p>
         </div>
     </footer>
 
@@ -262,8 +271,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
     <!-- JavaScript Personalizado -->
+    <script src="js/i18n.js"></script>
     <script src="js/data.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async function() {
+            await i18n.init();
+            document.getElementById('langSwitcher').textContent = i18n.currentLang === 'pt-BR' ? '🌐 PT' : '🌐 EN';
+            loadPersonalInfo();
+            loadSkills();
+            loadProjects();
+            loadExperience();
+            typeWriter();
+            document.querySelectorAll('[data-lang]').forEach(btn => {
+                btn.addEventListener('click', async function() {
+                    const lang = this.dataset.lang;
+                    document.getElementById('langSwitcher').textContent = lang === 'pt-BR' ? '🌐 PT' : '🌐 EN';
+                    const activeFilter = document.querySelector('.filter-btn.active')?.dataset.filter || 'all';
+                    await i18n.switchLang(lang);
+                    loadPersonalInfo();
+                    loadSkills();
+                    loadProjects(activeFilter);
+                    loadExperience();
+                });
+            });
+        });
+    </script>
 
 </body>
 </html>
