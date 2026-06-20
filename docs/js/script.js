@@ -70,11 +70,11 @@ secoes[0]?.classList.add('active');
 // ========================================
 // EFEITO DE MÁQUINA DE ESCREVER
 // ========================================
-const titles = [
-    'Desenvolvedor Back-end',
-    'Técnico em Informática',
-    'Solucionador de Problemas',
-    'Entusiasta de Tecnologia'
+const titleKeys = [
+    'typewriter.title1',
+    'typewriter.title2',
+    'typewriter.title3',
+    'typewriter.title4'
 ];
 
 let titleIndex = 0;
@@ -85,6 +85,7 @@ let typingSpeed = 100;
 // Função de digitação
 function typeWriter() {
     const typedTextElement = document.getElementById('typedText');
+    const titles = titleKeys.map(k => i18n.t(k));
     const currentTitle = titles[titleIndex];
     // Verifica se está digitando ou apagando
     if (!isDeleting) {
@@ -116,9 +117,9 @@ function typeWriter() {
 // CARREGAR DADOS PESSOAIS
 // ========================================
 function loadPersonalInfo() {
-    document.getElementById('heroName').textContent = personalInfo.name;
-    document.getElementById('heroTagline').textContent = personalInfo.tagline;
-    document.getElementById('location').textContent = personalInfo.location;
+    document.getElementById('heroName').textContent = i18n.t(personalInfo.nameKey);
+    document.getElementById('heroTagline').textContent = i18n.t(personalInfo.taglineKey);
+    document.getElementById('location').textContent = i18n.t(personalInfo.locationKey);
     
     // Update contact info
     const emailLink = document.getElementById('contactEmail');
@@ -142,6 +143,7 @@ function loadPersonalInfo() {
 // ========================================
 function loadSkills() {
     const container = document.getElementById('skillsContainer');
+    container.innerHTML = '';
     
     skills.forEach(skillCategory => {
         const col = document.createElement('div');
@@ -164,7 +166,7 @@ function loadSkills() {
         
         col.innerHTML = `
             <div class="skill-card">
-                <h4>${skillCategory.category}</h4>
+                <h4>${i18n.t(skillCategory.categoryKey)}</h4>
                 ${technologiesHTML}
             </div>
         `;
@@ -172,21 +174,26 @@ function loadSkills() {
         container.appendChild(col);
     });
     
-    // Animate skill bars when they come into view
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const progressBars = entry.target.querySelectorAll('.skill-progress');
-                progressBars.forEach(bar => {
-                    const width = bar.getAttribute('data-width');
-                    bar.style.width = width + '%';
-                });
-                observer.unobserve(entry.target);
-            }
+    // Animate skill bars
+    const rect = container.getBoundingClientRect();
+    const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+    if (isVisible) {
+        container.querySelectorAll('.skill-progress').forEach(bar => {
+            bar.style.width = bar.getAttribute('data-width') + '%';
         });
-    }, { threshold: 0.5 });
-    
-    observer.observe(container);
+    } else {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.querySelectorAll('.skill-progress').forEach(bar => {
+                        bar.style.width = bar.getAttribute('data-width') + '%';
+                    });
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+        observer.observe(container);
+    }
 }
 
 // ========================================
@@ -210,7 +217,7 @@ function loadProjects(filter = 'all') {
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                     </svg>
-                    Código
+                    ${i18n.t('project.code')}
                 </a>
             `:'';
         const demoLink = project.demo ? `
@@ -220,7 +227,7 @@ function loadProjects(filter = 'all') {
                     <polyline points="15 3 21 3 21 9"></polyline>
                     <line x1="10" y1="14" x2="21" y2="3"></line>
                 </svg>
-                Demo
+                ${i18n.t('project.demo')}
             </a>
         ` : '';
         const siteLink = project.site ? `
@@ -237,7 +244,7 @@ function loadProjects(filter = 'all') {
                     3.008M14.982 7.5a6.96 6.96 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008zM11.27 2.461q.266.502.482 1.078a8.4 8.4 0 0 0 1.196-.49 7 7 0 
                     0 0-2.275-1.52c.218.283.418.597.597.932m-.488 1.343a8 8 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
                 </svg>
-                Site
+                ${i18n.t('project.site')}
             </a>
         ` : '';
         
@@ -246,7 +253,7 @@ function loadProjects(filter = 'all') {
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2">
                     <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
                 </svg>
-                Destaque
+                ${i18n.t('project.badge')}
             </div>
         ` : '';
         
@@ -257,12 +264,12 @@ function loadProjects(filter = 'all') {
         col.innerHTML = `
             <div class="project-card">
                 <div class="project-image-wrapper">
-                    <img src="${project.image}" alt="${project.title}" class="project-image">
+                    <img src="${project.image}" alt="${i18n.t(project.titleKey)}" class="project-image">
                     ${badge}
                 </div>
                 <div class="project-content">
-                    <h3 class="project-title">${project.title}</h3>
-                    <p class="project-description">${project.description}</p>
+                    <h3 class="project-title">${i18n.t(project.titleKey)}</h3>
+                    <p class="project-description">${i18n.t(project.descriptionKey)}</p>
                     <div class="project-tags">
                         ${tagsHTML}
                     </div>
@@ -295,6 +302,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // ========================================
 function loadExperience() {
     const container = document.getElementById('experienceContainer');
+    container.innerHTML = '';
     
     experience.forEach((item, index) => {
         const isEven = index % 2 === 0;
@@ -326,12 +334,12 @@ function loadExperience() {
                                 </svg>
                             </div>
                             <div class="flex-grow-1">
-                                <h5 class="timeline-title">${item.title}</h5>
-                                <p class="timeline-company">${item.company}</p>
+                                <h5 class="timeline-title">${i18n.t(item.titleKey)}</h5>
+                                <p class="timeline-company">${i18n.t(item.companyKey)}</p>
                             </div>
                         </div>
-                        <p class="timeline-period">${item.period}</p>
-                        <p class="timeline-description">${item.description}</p>
+                        <p class="timeline-period">${i18n.t(item.periodKey)}</p>
+                        <p class="timeline-description">${i18n.t(item.descriptionKey)}</p>
                     </div>
                 </div>
                 <div class="col-md-6 ${isEven ? 'order-md-2' : 'order-md-1'}">
@@ -345,18 +353,8 @@ function loadExperience() {
 }
 
 // ========================================
-// INICIALIZAR TUDO
+// INICIALIZAR (chamado pelo i18n após carregar)
 // ========================================
 document.addEventListener('DOMContentLoaded', function() {
-    // Set current year in footer
     document.getElementById('currentYear').textContent = new Date().getFullYear();
-    
-    // Load all content
-    loadPersonalInfo();
-    loadSkills();
-    loadProjects();
-    loadExperience();
-    
-    // Start typewriter effect
-    typeWriter();
 });

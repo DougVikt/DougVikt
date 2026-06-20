@@ -4,19 +4,19 @@
 
 // Informações Pessoais
 const personalInfo = {
-    name: "Douglas Viktor",
-    title: "Desenvolvedor Backend & Técnico em Informática",
-    tagline: "Transformando ideias em soluções digitais",
+    nameKey: "personal.name",
+    titleKey: "personal.title",
+    taglineKey: "personal.tagline",
     email: "douglasviktormartins@hotmail.com",
     linkedin: "https://linkedin.com/in/douglas-viktor-a3422b343/",
     github: "https://github.com/dougvikt",
-    location: "Sou de Natal, RN, Brasil",
+    locationKey: "personal.location",
 };
 
 // Habilidades Técnicas
 const skills = [
     {
-        category: "Frontend",
+        categoryKey: "skills.category.frontend",
         technologies: [
             { name: "React", level: 10 },
             { name: "JavaScript", level: 15 },
@@ -25,7 +25,7 @@ const skills = [
         ]
     },
     {
-        category: "Backend",
+        categoryKey: "skills.category.backend",
         technologies: [
             { name: "Python", level: 76 },
             { name: "Django", level: 35 },
@@ -35,7 +35,7 @@ const skills = [
         ]
     },
     {
-        category: "Database",
+        categoryKey: "skills.category.database",
         technologies: [
             { name: "MongoDB", level: 10 },
             { name: "MySQL", level: 75 },
@@ -44,7 +44,7 @@ const skills = [
         ]
     },
     {
-        category: "DevOps & Tools",
+        categoryKey: "skills.category.devops",
         technologies: [
             { name: "Git & GitHub", level: 65 },
             { name: "Windows", level: 75 },
@@ -60,8 +60,8 @@ const skills = [
 const projects = [
     {
         id: 1,
-        title: "Snake",
-        description: "Um jogo no estilo classico do game da 'cobrinha' , onde a cada multiplo de 120 aumenta o nivel , com isso a velocidade",
+        titleKey: "project.1.title",
+        descriptionKey: "project.1.desc",
         image: "img/snake.gif",
         tags: ["Python", "Game"],
         github: "https://github.com/DougVikt/GAMES",
@@ -69,9 +69,8 @@ const projects = [
     },
     {
         id: 2,
-        title: "Ploop",
-        description: `Game no estilo quebra blocos, mas sendo so o usuario contra o sistema, objetivo e não deixar a bola cair ,
-        onde a cada 15s a velocidae da bola aumenta `,
+        titleKey: "project.2.title",
+        descriptionKey: "project.2.desc",
         image: "img/ploop.gif",
         tags: ["Python", "Game"],
         github: "https://github.com/DougVikt/GAMES",
@@ -79,10 +78,8 @@ const projects = [
     },
     {
         id: 3,
-        title: "Adivinhe a palavra",
-        description: `Game de adivinhar a palavra , onde o usuario pode criar sua lista palavras , o sistema escolherá uma palavra aleatoria
-        o usaurio tem 5 mais a quantidade de letras da palavra para acertar (ex: faca = 4 letras , 4 + 5 = 9 chances de acertar ), pode ser jogado 
-        varias vezes com a mesma lista , mas tambem tem a opção de trocar a cada fim de partida  .`,
+        titleKey: "project.3.title",
+        descriptionKey: "project.3.desc",
         image: "img/adv.gif",
         tags: ["c#", "Game"],
         github: "https://github.com/DougVikt/GAMES",
@@ -90,8 +87,8 @@ const projects = [
     },
     {
         id: 4,
-        title: "Biblioteca Amanajé",
-        description: "Site de gerenciamento de biblioteca com autenticação de usuários e sistema de empréstimos de livros com avaliação pelos usuarios .",
+        titleKey: "project.4.title",
+        descriptionKey: "project.4.desc",
         image: "img/logo_biblio_amanaje.png",
         tags: ["HTML","Css","Bootstrap","JavaScript","PHP","Site"],
         github: "https://github.com/DougVikt/SITE_GERENT_BIBLIOTECA",
@@ -99,9 +96,8 @@ const projects = [
     },
     {
         id: 5,
-        title: "Vaudio",
-        description: `App desktop que adiona atalho de aumentar e diminur o volume do sistema , 
-        rodando em segundo plano pode reagir a qualquer mon=mento que o usuario precisar .`,
+        titleKey: "project.5.title",
+        descriptionKey: "project.5.desc",
         image: "img/logo_vaudio.jpg",
         tags: ["Python", "App desktop"],
         github: "https://github.com/DougVikt/APP_V-AUDIO",
@@ -109,9 +105,8 @@ const projects = [
     },
     {
         id: 6,
-        title: "TiClean",
-        description: `Aplicação para desktop de limpeza rotineira de arquivos temporários e desnecessários do sistema operacional, 
-        melhorando o desempenho do computador.Apos iniciado faz tudo automatizado o usuario so precisa iniciar o app e deixar ele fazer o resto .`,
+        titleKey: "project.6.title",
+        descriptionKey: "project.6.desc",
         image: "img/logo_ticlean.jpg",
         tags: ["Python", "App desktop"],
         github: "https://github.com/DougVikt/Acessorios_de_TI",
@@ -119,9 +114,8 @@ const projects = [
     },
     {
         id: 7,
-        title: "Sintonia Mental",
-        description: `Aplicação web para consultas online , onde o plubico alvo são pessoas que ja tem ou com potencial para o TDAH,
-        com consultas online com os medicos especialistas cadastrados , agendamentos e pagamentos tudo sem precisar ir presencialmente.`,
+        titleKey: "project.7.title",
+        descriptionKey: "project.7.desc",
         image: "img/sm_site.gif",
         tags: ["Html","Css","JavaScript","Django","Bootstrap","Site"],
         github: "https://github.com/DougVikt/SintoniaMental",
@@ -130,9 +124,8 @@ const projects = [
     },
     {
         id: 8,
-        title: "Api Cine Reserve",
-        description: `Api projetada para gerenciar as complexidades das operações modernas de cinema com foco na integridade dos dados
-         e no controle de concorrência`,
+        titleKey: "project.8.title",
+        descriptionKey: "project.8.desc",
         image: "img/api.jpeg",
         tags: ["Python", "Django","Django Rest Framework"],
         github: "https://github.com/DougVikt/API-CineReserve",
@@ -140,9 +133,8 @@ const projects = [
     },
     {
         id:9,
-        title: "Dj-Reframe",
-        description: `É um CLI para transformar o comando startapp padrão do Django. Ao invés de estrutura genérica padrão,
-         e so escolher a arquitetura ou cria sua propria `,
+        titleKey: "project.9.title",
+        descriptionKey: "project.9.desc",
         image:"img/dj-reframe.jpeg",
         tags:["Python","Django","Pacote Pypi" , "CLI"],
         github:"https://github.com/DougVikt/dj-reframe",
@@ -151,10 +143,8 @@ const projects = [
     },
       {
         id:10,
-        title: "App Agendamento",
-        description: `Sistema web completo para gerenciamento de agendamentos desenvolvido com Python/Flask. 
-        Permite que a central de atendimento agende horarios com colaboradores, que cada colaborador gerencie 
-        sua propria agenda, e que administradores tenham controle total sobre os dados.`,
+        titleKey: "project.10.title",
+        descriptionKey: "project.10.desc",
         image:"img/app_agendamento.gif",
         tags:["Python","Flask","Web" , "Intranet"],
         github:"https://github.com/DougVikt/app_agendamento",
@@ -163,9 +153,8 @@ const projects = [
     },
      {
         id:11,
-        title: "DataSwitch",
-        description: `Site conversor de dados e legendas , feito com React pensado na segurança dos arquivos enviados pelos usuarios 
-        e 100% com arquitetura client-side (lado do cliente). Com conversões para tipos de de arquivo JSON, CSV, XLSX, SQL, entre outros`,
+        titleKey: "project.11.title",
+        descriptionKey: "project.11.desc",
         image:"img/dataswitch.gif",
         tags:["React","Web"],
         site:"https://dataswitch.com.br",
@@ -180,53 +169,50 @@ const projects = [
 const experience = [
     {
         id: 1,
-        title: "Técnico em informática",
-        company: "Grau Técnico",
-        period: "2022-2024",
-        description: `Curso técnico com ênfase em Programação Web para desenvolver soluções digitais inovadoras, codificação e manutenção de sites e aplicativos web responsivos.
-        Integra conhecimentos de front-end (HTML, CSS, JavaScript) e back-end (PHP, Node.js, bancos de dados como MySQL), com tambem manutenção de hardware e software, 
-        configuração de redes e suporte técnico.`,
+        titleKey: "exp.1.title",
+        companyKey: "exp.1.company",
+        periodKey: "exp.1.period",
+        descriptionKey: "exp.1.desc",
         type: "certification"
     },
     {
         id: 2,
-        title: "Framework Bootstrap",
-        company: "Grau Educacional",
-        period: "2023",
-        description: "Curso focado no desenvolvimento de interfaces responsivas e modernas utilizando o framework Bootstrap, abrangendo conceitos de design, componentes e personalização.",
+        titleKey: "exp.2.title",
+        companyKey: "exp.2.company",
+        periodKey: "exp.2.period",
+        descriptionKey: "exp.2.desc",
         type: "education"
     },
     {
         id: 3,
-        title: "Engenharia de prompt",
-        company: "pensarcursos.com",
-        period: "2026",
-        description: `Formação como um treinamento rápido e de nível intermediário, desenhado para capacitar a dominarem o uso de ferramentas de Inteligência Artificial generativa. 
-        O foco central é ensinar a testar e refinar instruções de texto para obter respostas exatas de modelos de IA`,
+        titleKey: "exp.3.title",
+        companyKey: "exp.3.company",
+        periodKey: "exp.3.period",
+        descriptionKey: "exp.3.desc",
         type: "education"
     },
     {
         id: 4,
-        title: "POO com python",
-        company: "Fundação Bradesco",
-        period: "2023",
-        description: "Curso que aborda os princípios da Programação Orientada a Objetos (POO) utilizando a linguagem Python, incluindo conceitos como classes, objetos, herança, encapsulamento e polimorfismo.",
+        titleKey: "exp.4.title",
+        companyKey: "exp.4.company",
+        periodKey: "exp.4.period",
+        descriptionKey: "exp.4.desc",
         type: "education"
     },
      {
         id: 5,
-        title: "Técnologo Beckend",
-        company: "Cruzeiro do Sul",
-        period: "2025-2027",
-        description: "Curso focado no desenvolvimento de aplicações web do lado do servidor, abrangendo linguagens como Python, Node.js e PHP, além de bancos de dados, APIs e segurança.",
+        titleKey: "exp.5.title",
+        companyKey: "exp.5.company",
+        periodKey: "exp.5.period",
+        descriptionKey: "exp.5.desc",
         type: "certification"
     },
     {
         id:6,
-        title: "Técnico em Informática",
-        company: "Grau Educacional",
-        period: "Atualmente Trabalhando",
-        description: "Suporte técnico, manutenção de sistemas, configuração de redes e resolução de problemas de hardware e software.",
+        titleKey: "exp.6.title",
+        companyKey: "exp.6.company",
+        periodKey: "exp.6.period",
+        descriptionKey: "exp.6.desc",
         type: "work"
     }
 ];
