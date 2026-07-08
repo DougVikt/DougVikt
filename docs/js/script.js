@@ -202,6 +202,10 @@ function loadSkills() {
 function loadProjects(filter = 'all') {
     const container = document.getElementById('projectsContainer');
     container.innerHTML = '';
+
+    const documentation = document.getElementById('documentationContainer');
+    documentation.innerHTML ='';
+
     
     let filteredProjects = projects;
     if (filter === 'featured') {
@@ -280,8 +284,11 @@ function loadProjects(filter = 'all') {
                 </div>
             </div>
         `;
-        
-        container.appendChild(col);
+        if(!project.doc) {
+            container.appendChild(col);
+        }else{
+            documentation.appendChild(col);
+        }
     });
 }
 

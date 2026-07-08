@@ -65,7 +65,8 @@ const projects = [
         image: "img/snake.gif",
         tags: ["Python", "Game"],
         github: "https://github.com/DougVikt/GAMES",
-        featured: false
+        featured: false,
+        doc:false
     },
     {
         id: 2,
@@ -74,7 +75,8 @@ const projects = [
         image: "img/ploop.gif",
         tags: ["Python", "Game"],
         github: "https://github.com/DougVikt/GAMES",
-        featured: false
+        featured: false,
+        doc:false
     },
     {
         id: 3,
@@ -83,7 +85,8 @@ const projects = [
         image: "img/adv.gif",
         tags: ["c#", "Game"],
         github: "https://github.com/DougVikt/GAMES",
-        featured: false
+        featured: false,
+        doc:false
     },
     {
         id: 4,
@@ -92,7 +95,8 @@ const projects = [
         image: "img/logo_biblio_amanaje.png",
         tags: ["HTML","Css","Bootstrap","JavaScript","PHP","Site"],
         github: "https://github.com/DougVikt/SITE_GERENT_BIBLIOTECA",
-        featured: false
+        featured: false,
+        doc:false
     },
     {
         id: 5,
@@ -101,7 +105,8 @@ const projects = [
         image: "img/logo_vaudio.jpg",
         tags: ["Python", "App desktop"],
         github: "https://github.com/DougVikt/APP_V-AUDIO",
-        featured: false
+        featured: false,
+        doc:false
     },
     {
         id: 6,
@@ -110,7 +115,8 @@ const projects = [
         image: "img/logo_ticlean.jpg",
         tags: ["Python", "App desktop"],
         github: "https://github.com/DougVikt/Acessorios_de_TI",
-        featured: false
+        featured: false,
+        doc:false
     },
     {
         id: 7,
@@ -120,7 +126,8 @@ const projects = [
         tags: ["Html","Css","JavaScript","Django","Bootstrap","Site"],
         github: "https://github.com/DougVikt/SintoniaMental",
         demo: "https://sintoniamental.onrender.com",
-        featured: false
+        featured: false,
+        doc:false
     },
     {
         id: 8,
@@ -129,7 +136,8 @@ const projects = [
         image: "img/api.jpeg",
         tags: ["Python", "Django","Django Rest Framework"],
         github: "https://github.com/DougVikt/API-CineReserve",
-        featured: false
+        featured: false,
+        doc:false
     },
     {
         id:9,
@@ -138,7 +146,8 @@ const projects = [
         image:"img/dj-reframe.jpeg",
         tags:["Python","Django","Pacote Pypi" , "CLI"],
         github:"https://github.com/DougVikt/dj-reframe",
-        featured: true
+        featured: true,
+        doc:false
 
     },
       {
@@ -148,7 +157,8 @@ const projects = [
         image:"img/app_agendamento.gif",
         tags:["Python","Flask","Web" , "Intranet"],
         github:"https://github.com/DougVikt/app_agendamento",
-        featured: false
+        featured: false,
+        doc:false
 
     },
      {
@@ -159,9 +169,32 @@ const projects = [
         tags:["React","Web"],
         site:"https://dataswitch.com.br",
         github:"",
-        featured: true
-
+        featured: true,
+        doc:false
+    },
+     {
+        id:12,
+        titleKey: "project.12.title",
+        descriptionKey: "project.12.desc",
+        image:"img/",
+        tags:["Commits","Documentation"],
+        site:"",
+        github:"https://github.com/DougVikt/commit_pattern",
+        featured: true,
+        doc:true,
+    },
+    {
+        id:13,
+        titleKey: "project.13.title",
+        descriptionKey: "project.13.desc",
+        image:"img/",
+        tags:["Documentation","Instruction"],
+        site:"",
+        github:"https://github.com/DougVikt/caminho-do-desenvolvedor",
+        featured: true,
+        doc:true,
     }
+
     
 ];
 
