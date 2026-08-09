@@ -1,63 +1,48 @@
-# ✨ BEM VINDO AO MEU UNIVERSO DE CODIGO !
+# Olá, eu sou o Douglas Viktor! 👋
 
- Ola ! Para você que esta vendo meu perfil . Sou um entusiasta da tecnologia, sempre em busca do próximo desafio.<br>
- Começei em desenvolvimento web com php , entretanto o django e o que uso atualmente e de maior prefêrencia , mas não quero parar , ir para varias areas de desenvolvimento será a meta de vida.
-  + Meu lema :
- ***A estagnação leva ao fracasso***
+<p align="left">
+  <a href="https://www.linkedin.com/in/douglas-viktor-a3422b343/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://dougvikt.github.io/DougVikt/">
+    <img src="https://img.shields.io/badge/Portfolio-137300?style=for-the-badge&logo=googledomains&logoColor=white" alt="Portfolio">
+  </a>
+</p>
 
-📍 **Localização:** Natal, Rio Grande do Norte.
+### 🚀 Sobre Mim
+Sou um desenvolvedor apaixonado por tecnologia e focado na resolução de problemas. Iniciei minha jornada no desenvolvimento web com  **PHP**, mas hoje minha principal expertise e preferência de stack reside no ecossistema **Python & Django** com estudo atual em **React & Node**.
 
-<br>
+Tenho como meta de vida a evolução contínua, explorando diversas áreas do desenvolvimento para construir soluções robustas e eficientes.
+
+> **lema:** *"A estagnação leva ao fracasso"*
+
+- 📍 Baseado em: **Natal, Rio Grande do Norte, Brasil**
+- 🛠️ Atualmente focado em: Aperfeiçoamento em **Django** e **React**
+- 🔭 Buscando: Oportunidades para colaborar em projetos inovadores e desafiadores
 
 ---
 
-<br>
-  
-## 🤝 Vamos Conectar?
+### 💻 Stack Tecnológica
 
-Estou sempre aberto a novas conexões e oportunidades. Vamos conversar sobre tecnologia e projetos!
- 
-[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=lospec&logoColor=whitek&color=blue&link=https://www.linkedin.com/in/douglas-viktor-a3422b343/)](https://www.linkedin.com/in/douglas-viktor-a3422b343/)  [![Portifolio](https://img.shields.io/badge/-Portfolio-137300?style=for-the-badge&logo=proton&logoColor=white&color=137300&link=https://dougvikt.github.io/DougVikt/)](https://dougvikt.github.io/DougVikt/)
-
-<br>
+| Categoria | Tecnologias |
+| :--- | :--- |
+| **Linguagens** | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB1.svg?style=for-the-badge&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) |
+| **Frameworks Web** | ![Django](https://img.shields.io/badge/django-%23092e20.svg?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) |
+| **Frontend** | ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) |
+| **Banco de Dados** | ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) |
 
 ---
 
-<br>
+### 📊 Estatísticas do GitHub
 
-## 💻 LINGUAGENS
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DougVikt&theme=dracula" alt="GitHub Streak" />
+</p>
 
-<div display="inline-block" width="200px">
-<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="50" height="50" alt="logo html5" title="html5" /></code>
-<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="50" height="50" alt="logo css3" title="css3"/></code>
-<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="50" height="50" alt="logo javascript" title="javascript"/></code>
-<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="50" height="50" alt="logo php" title="php"/></code>
-<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="50" height="50" alt="logo python" title="python" /></code>
-<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="50" height="50" alt="logo mysql" title="mysql"/></code>
-</div>
+---
 
-<br>
-
-## 🏗️ FRAMEWORKS
-
-<div display="inline-block">
-<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="50" height="50" alt="logo bootstrap" title="bootstrap" /></code>
-<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" width="50" height="50" alt="logo django" title="django" />   
-</code>
-</div>
-
-<img align="center" width="550px" style="margin-top:-30px" src="octocat-doug.png">  
-
-<br>
-
-<div align="center" >
-
-![Profile Views](https://komarev.com/ghpvc/?username=DougVikt&color=red&style=flat-square)
-
-</div>
 <div align="center">
-  <p>Obrigado pela visita! Sinta-se à vontade para explorar os repositórios e ver o que estou construindo. 👨‍💻</p>
+  <img width="400px" src="octocat-doug.png" alt="Mascote Octocat">
+  <br>
+  <p><i>Obrigado por visitar meu perfil! Sinta-se à vontade para explorar meus repositórios.</i></p>
 </div>
-
-
-
