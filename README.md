@@ -36,7 +36,7 @@ Tenho como meta de vida a evolução contínua, explorando diversas áreas do de
 ### 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DougVikt&theme=dracula" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=DougVikt&theme=dracula" alt="GitHub Streak" />
 </p>
 
 ---
